@@ -1,0 +1,1420 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "mitmproxy har_dump",
+      "version": "0.1",
+      "comment": "mitmproxy version mitmproxy 5.3.0"
+    },
+    "entries": [
+      {
+        "startedDateTime": "2025-03-10T04:53:45.195395+00:00",
+        "time": 923,
+        "request": {
+          "method": "POST",
+          "url": "https://sg1.clevertap-prod.com/a1?os=iOS&t=70001&z=TEST-KKR-997-WR6Z&ts=1741582424",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "Host",
+              "value": "sg1.clevertap-prod.com"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "X-CleverTap-Account-Id",
+              "value": "TEST-KKR-997-WR6Z"
+            },
+            {
+              "name": "X-CleverTap-Token",
+              "value": "TEST-acc-233"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "Content-Length",
+              "value": "604"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "User-Agent",
+              "value": "PDAX-DEV/1230 CFNetwork/1474 Darwin/23.0.0"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "os",
+              "value": "iOS"
+            },
+            {
+              "name": "t",
+              "value": "70001"
+            },
+            {
+              "name": "z",
+              "value": "TEST-KKR-997-WR6Z"
+            },
+            {
+              "name": "ts",
+              "value": "1741582424"
+            }
+          ],
+          "headersSize": 423,
+          "bodySize": 604,
+          "postData": {
+            "mimeType": "application/json; charset=utf-8",
+            "text": "[{\"id\":\"TEST-KKR-997-WR6Z\",\"imp\":0,\"tk\":\"TEST-acc-233\",\"frs\":false,\"tlc\":[],\"regURLs\":[\"fb973368383465822\",\"app\"],\"type\":\"meta\",\"af\":{\"wdt\":\"2.64\",\"OS Version\":\"17.0\",\"Version\":\"13.2.0\",\"Build\":\"1230\",\"Model\":\"iPhone15,5\",\"ifv\":\"9bfcad5b02ff48ac8b031cc11ab39918\",\"LIAMC\":0,\"ifaA\":false,\"locale\":\"en-US_XX\",\"SDK Version\":70001,\"useIP\":false,\"OS\":\"iOS\",\"hgt\":\"5.72\",\"Make\":\"Apple\"},\"ddnd\":1,\"l_ts\":0,\"f_ts\":0,\"g\":\"-v9bfcad5b02ff48ac8b031cc11ab39918\"},{\"pai\":\"ph.pdax.mobile.dev\",\"n\":\"_bg\",\"evtName\":\"wzrk_fetch\",\"dsync\":true,\"pg\":1,\"evtData\":{\"t\":1},\"ep\":1741582424,\"type\":\"event\",\"lsl\":0,\"s\":0,\"f\":false}]",
+            "params": []
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "Server",
+              "value": "CloudFront"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/javascript;charset=utf-8"
+            },
+            {
+              "name": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Date",
+              "value": "Mon, 10 Mar 2025 04:53:45 GMT"
+            },
+            {
+              "name": "X-Frame-Options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache, no-store, no-cache, no-store"
+            },
+            {
+              "name": "Strict-Transport-Security",
+              "value": "max-age=31536000;includeSubDomains;preload"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Expires",
+              "value": "0"
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding, User-Agent"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "X-Cache",
+              "value": "Miss from cloudfront"
+            },
+            {
+              "name": "Via",
+              "value": "1.1 f73591660e8618bbc7361ba2a488003c.cloudfront.net (CloudFront)"
+            },
+            {
+              "name": "X-Amz-Cf-Pop",
+              "value": "MNL52-P2"
+            },
+            {
+              "name": "X-Amz-Cf-Id",
+              "value": "TGK-54rLDAL8hszV6NWFu_6RFccZTQjgQVVIc07YGRSdaKxytDlyaQ=="
+            }
+          ],
+          "content": {
+            "size": 0,
+            "compression": 0,
+            "mimeType": "text/javascript;charset=utf-8"
+          },
+          "redirectURL": "",
+          "headersSize": 753,
+          "bodySize": 168
+        },
+        "cache": {
+
+        },
+        "timings": {
+          "send": 8,
+          "receive": 9,
+          "wait": 364,
+          "connect": 1,
+          "ssl": 541
+        }
+      },
+      {
+        "startedDateTime": "2025-03-10T04:53:45.592588+00:00",
+        "time": 311,
+        "request": {
+          "method": "POST",
+          "url": "https://sg1.clevertap-prod.com/a1?os=iOS&t=70001&z=TEST-KKR-997-WR6Z&ts=1741582425",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "Host",
+              "value": "sg1.clevertap-prod.com"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "X-CleverTap-Account-Id",
+              "value": "TEST-KKR-997-WR6Z"
+            },
+            {
+              "name": "X-CleverTap-Token",
+              "value": "TEST-acc-233"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "Content-Length",
+              "value": "782"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "User-Agent",
+              "value": "PDAX-DEV/1230 CFNetwork/1474 Darwin/23.0.0"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "os",
+              "value": "iOS"
+            },
+            {
+              "name": "t",
+              "value": "70001"
+            },
+            {
+              "name": "z",
+              "value": "TEST-KKR-997-WR6Z"
+            },
+            {
+              "name": "ts",
+              "value": "1741582425"
+            }
+          ],
+          "headersSize": 423,
+          "bodySize": 782,
+          "postData": {
+            "mimeType": "application/json; charset=utf-8",
+            "text": "[{\"id\":\"TEST-KKR-997-WR6Z\",\"imp\":0,\"tk\":\"TEST-acc-233\",\"frs\":true,\"tlc\":[],\"regURLs\":[\"fb973368383465822\",\"app\"],\"type\":\"meta\",\"af\":{\"lib\":\"Flutter\",\"wdt\":\"2.64\",\"OS Version\":\"17.0\",\"Version\":\"13.2.0\",\"Build\":\"1230\",\"Model\":\"iPhone15,5\",\"ifv\":\"9bfcad5b02ff48ac8b031cc11ab39918\",\"LIAMC\":0,\"ifaA\":false,\"Flutter\":20500,\"locale\":\"en-US_XX\",\"SDK Version\":70001,\"useIP\":false,\"OS\":\"iOS\",\"hgt\":\"5.72\",\"Make\":\"Apple\"},\"ddnd\":1,\"arp\":{\"wdt\":2.6400000000000001,\"i_n\":\"ZmlnegsA\",\"j_n\":\"Zw==\",\"d_ts\":0,\"id\":\"KKR-997-WR6Z\",\"hgt\":5.7199999999999998,\"dh\":0,\"v\":2,\"j_s\":\"{}\",\"av\":\"13.2.0\",\"r_ts\":1741582425},\"l_ts\":0,\"f_ts\":1741582424,\"g\":\"-v9bfcad5b02ff48ac8b031cc11ab39918\"},{\"s\":1741582424,\"n\":\"_bg\",\"dsync\":true,\"pg\":1,\"ep\":1741582425,\"type\":\"profile\",\"lsl\":0,\"f\":true,\"profile\":{\"tz\":\"GMT\"}}]",
+            "params": []
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "Server",
+              "value": "CloudFront"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/javascript;charset=utf-8"
+            },
+            {
+              "name": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Date",
+              "value": "Mon, 10 Mar 2025 04:53:45 GMT"
+            },
+            {
+              "name": "X-Frame-Options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache, no-store, no-cache, no-store"
+            },
+            {
+              "name": "Strict-Transport-Security",
+              "value": "max-age=31536000;includeSubDomains;preload"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Expires",
+              "value": "0"
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding, User-Agent"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "X-Cache",
+              "value": "Miss from cloudfront"
+            },
+            {
+              "name": "Via",
+              "value": "1.1 f73591660e8618bbc7361ba2a488003c.cloudfront.net (CloudFront)"
+            },
+            {
+              "name": "X-Amz-Cf-Pop",
+              "value": "MNL52-P2"
+            },
+            {
+              "name": "X-Amz-Cf-Id",
+              "value": "PndhYh4yFDkquYLXwPAsM0ppwr-5EHgVSbu4Zhx9bEnwxWyPFqjMOA=="
+            }
+          ],
+          "content": {
+            "size": 0,
+            "compression": 0,
+            "mimeType": "text/javascript;charset=utf-8"
+          },
+          "redirectURL": "",
+          "headersSize": 753,
+          "bodySize": 168
+        },
+        "cache": {
+
+        },
+        "timings": {
+          "send": 7,
+          "receive": 7,
+          "wait": 297,
+          "connect": -1000,
+          "ssl": -1000
+        }
+      },
+      {
+        "startedDateTime": "2025-03-10T04:53:45.447409+00:00",
+        "time": 1203,
+        "request": {
+          "method": "POST",
+          "url": "https://4obd7o-dynamic-report-api.appsflyersdk.com/api/dynamic-report/1",
+          "httpVersion": "HTTP/2.0",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "accept",
+              "value": "application/json"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "user-agent",
+              "value": "PDAX-DEV/1230 CFNetwork/1474 Darwin/23.0.0"
+            },
+            {
+              "name": "signature",
+              "value": "75438aea1a13f4d7f7fa9eed7101f2e8f92f2eb8654cb8fe89ccab383e2ede12"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "content-length",
+              "value": "699"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br"
+            }
+          ],
+          "queryString": [],
+          "headersSize": 344,
+          "bodySize": 699,
+          "postData": {
+            "mimeType": "application/json",
+            "text": "{\"sdk_version\":\"6.15.3\",\"gcv_transaction_id\":\"D7A4837D-5AC3-48DE-9842-CCDAAEA43261\",\"gcv_coarse_value\":\"low\",\"gcv_lock_window\":false,\"error_description\":\"The operation couldnt be completed. (SKANErrorDomain error 10.)\",\"gcv_postback_sequence\":0,\"subject\":\"sdk-cv-skan4-error-log\",\"skan_mode\":\"undefined\",\"is_default_coarse\":true,\"ucv_coarse_value\":\"low\",\"gcv_next_w_time\":0,\"app_id\":\"id6472164959\",\"install_time\":\"2025-03-10_045328+0000\",\"error_code\":10,\"error_name\":\"unknown\",\"gcv_req_device_ts\":0,\"is_default_fine\":true,\"timestamp\":1741582425,\"ucv_lock_window\":false,\"os_version\":\"17.0\",\"ucv_fine_value\":0,\"ucv_device_ts\":1741582424682,\"gcv_fine_value\":0,\"appsflyer_id\":\"1741582408228-9502488\"}",
+            "params": []
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "HTTP/2.0",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "date",
+              "value": "Mon, 10 Mar 2025 04:53:45 GMT"
+            },
+            {
+              "name": "x-cache",
+              "value": "Miss from cloudfront"
+            },
+            {
+              "name": "via",
+              "value": "1.1 77ed6e27c5ae2d8e96b54a4ebdd2ed2a.cloudfront.net (CloudFront)"
+            },
+            {
+              "name": "x-amz-cf-pop",
+              "value": "MNL52-P1"
+            },
+            {
+              "name": "x-amz-cf-id",
+              "value": "Hj6VLZO81wfGGdxlVqquKHQDqmLDhWXgodhlPuEXpxo9To8BZCmdrA=="
+            }
+          ],
+          "content": {
+            "size": 0,
+            "compression": 0,
+            "mimeType": ""
+          },
+          "redirectURL": "",
+          "headersSize": 281,
+          "bodySize": 2
+        },
+        "cache": {
+
+        },
+        "timings": {
+          "send": 4,
+          "receive": 12,
+          "wait": 482,
+          "connect": 3,
+          "ssl": 702
+        }
+      },
+      {
+        "startedDateTime": "2025-03-10T04:53:45.450175+00:00",
+        "time": 1310,
+        "request": {
+          "method": "GET",
+          "url": "https://4obd7o-cdn-settings.appsflyersdk.com/ios/v1/72c56b00bbd2b9faf3dc081da294a5424240b000c3d1dd91e6b87f2fb8869328/settings",
+          "httpVersion": "HTTP/2.0",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "user-agent",
+              "value": "PDAX-DEV/1230 CFNetwork/1474 Darwin/23.0.0"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br"
+            }
+          ],
+          "queryString": [],
+          "headersSize": 177,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "HTTP/2.0",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "content-length",
+              "value": "45"
+            },
+            {
+              "name": "server",
+              "value": "awselb/2.0"
+            },
+            {
+              "name": "date",
+              "value": "Mon, 23 Sep 2024 07:34:04 GMT"
+            },
+            {
+              "name": "x-amz-meta-af-auth-v1",
+              "value": "8cf6bcd3e0fd"
+            },
+            {
+              "name": "via",
+              "value": "1.1 50454c0513219eda71a5b71ac23135ae.cloudfront.net (CloudFront)"
+            },
+            {
+              "name": "age",
+              "value": "14505581"
+            },
+            {
+              "name": "x-af-date",
+              "value": "1741582426"
+            },
+            {
+              "name": "x-cache",
+              "value": "Hit from cloudfront"
+            },
+            {
+              "name": "x-amz-cf-pop",
+              "value": "MNL52-P1"
+            },
+            {
+              "name": "x-amz-cf-id",
+              "value": "vjPc8Rsr1tJWYh1fOe38WvafjVo2YQVA3VtNuyVRYC5SCsm25XsnDw=="
+            }
+          ],
+          "content": {
+            "size": 0,
+            "compression": 0,
+            "mimeType": "application/json"
+          },
+          "redirectURL": "",
+          "headersSize": 475,
+          "bodySize": 45
+        },
+        "cache": {
+
+        },
+        "timings": {
+          "send": 235,
+          "receive": 3,
+          "wait": 359,
+          "connect": 2,
+          "ssl": 711
+        }
+      },
+      {
+        "startedDateTime": "2025-03-10T04:53:45.301414+00:00",
+        "time": 1621,
+        "request": {
+          "method": "GET",
+          "url": "https://firebase-settings.crashlytics.com/spi/v2/platforms/ios/gmp/1:302234022356:ios:7d010afceeeea83bb8e641/settings?build_version=1230&display_version=13.2.0&instance=922415872addf98352fe0b649ab6109fe577daac&source=1",
+          "httpVersion": "HTTP/2.0",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "x-crashlytics-os-display-version",
+              "value": "17.0.0"
+            },
+            {
+              "name": "accept",
+              "value": "application/json"
+            },
+            {
+              "name": "accept-charset",
+              "value": "utf-8"
+            },
+            {
+              "name": "content-language",
+              "value": "ph"
+            },
+            {
+              "name": "x-crashlytics-api-client-version",
+              "value": "11.7.0"
+            },
+            {
+              "name": "x-crashlytics-installation-id",
+              "value": "F9FB35EE-84AA-423B-8FA9-8730DE24FAEB"
+            },
+            {
+              "name": "accept-language",
+              "value": "ph"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "x-crashlytics-device-model",
+              "value": "iPhone15,5"
+            },
+            {
+              "name": "x-crashlytics-developer-token",
+              "value": "77f0789d8e230eccdb4b99b82dccd78d47f9b604"
+            },
+            {
+              "name": "x-crashlytics-google-app-id",
+              "value": "1:302234022356:ios:7d010afceeeea83bb8e641"
+            },
+            {
+              "name": "user-agent",
+              "value": "com.google.firebase.crashlytics.ios/11.7.0"
+            },
+            {
+              "name": "x-crashlytics-api-client-display-version",
+              "value": "11.7.0"
+            },
+            {
+              "name": "x-crashlytics-api-client-id",
+              "value": "com.google.firebase.crashlytics.ios"
+            },
+            {
+              "name": "x-crashlytics-os-build-version",
+              "value": "21A327"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "build_version",
+              "value": "1230"
+            },
+            {
+              "name": "display_version",
+              "value": "13.2.0"
+            },
+            {
+              "name": "instance",
+              "value": "922415872addf98352fe0b649ab6109fe577daac"
+            },
+            {
+              "name": "source",
+              "value": "1"
+            }
+          ],
+          "headersSize": 805,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "HTTP/2.0",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "vary",
+              "value": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, no-store, max-age=0, must-revalidate"
+            },
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "expires",
+              "value": "Mon, 01 Jan 1990 00:00:00 GMT"
+            },
+            {
+              "name": "date",
+              "value": "Mon, 10 Mar 2025 04:53:46 GMT"
+            },
+            {
+              "name": "cross-origin-resource-policy",
+              "value": "same-site"
+            },
+            {
+              "name": "cross-origin-opener-policy",
+              "value": "same-origin-allow-popups"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "server",
+              "value": "ESF"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "0"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "alt-svc",
+              "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+            }
+          ],
+          "content": {
+            "size": 0,
+            "compression": 0,
+            "mimeType": "application/json; charset=utf-8"
+          },
+          "redirectURL": "",
+          "headersSize": 650,
+          "bodySize": 380
+        },
+        "cache": {
+
+        },
+        "timings": {
+          "send": 240,
+          "receive": 6,
+          "wait": 733,
+          "connect": 1,
+          "ssl": 641
+        }
+      },
+      {
+        "startedDateTime": "2025-03-10T04:53:46.118309+00:00",
+        "time": 308,
+        "request": {
+          "method": "POST",
+          "url": "https://sg1.clevertap-prod.com/a1?os=iOS&t=70001&z=TEST-KKR-997-WR6Z&ts=1741582425",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "Host",
+              "value": "sg1.clevertap-prod.com"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "X-CleverTap-Account-Id",
+              "value": "TEST-KKR-997-WR6Z"
+            },
+            {
+              "name": "X-CleverTap-Token",
+              "value": "TEST-acc-233"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "Content-Length",
+              "value": "1057"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "User-Agent",
+              "value": "PDAX-DEV/1230 CFNetwork/1474 Darwin/23.0.0"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "os",
+              "value": "iOS"
+            },
+            {
+              "name": "t",
+              "value": "70001"
+            },
+            {
+              "name": "z",
+              "value": "TEST-KKR-997-WR6Z"
+            },
+            {
+              "name": "ts",
+              "value": "1741582425"
+            }
+          ],
+          "headersSize": 424,
+          "bodySize": 1057,
+          "postData": {
+            "mimeType": "application/json; charset=utf-8",
+            "text": "[{\"id\":\"TEST-KKR-997-WR6Z\",\"imp\":0,\"tk\":\"TEST-acc-233\",\"frs\":false,\"tlc\":[],\"regURLs\":[\"fb973368383465822\",\"app\"],\"type\":\"meta\",\"af\":{\"lib\":\"Flutter\",\"wdt\":\"2.64\",\"OS Version\":\"17.0\",\"Version\":\"13.2.0\",\"Build\":\"1230\",\"Model\":\"iPhone15,5\",\"ifv\":\"9bfcad5b02ff48ac8b031cc11ab39918\",\"LIAMC\":0,\"ifaA\":false,\"Flutter\":20500,\"locale\":\"en-US_XX\",\"SDK Version\":70001,\"useIP\":false,\"OS\":\"iOS\",\"hgt\":\"5.72\",\"Make\":\"Apple\"},\"ddnd\":1,\"arp\":{\"wdt\":2.6400000000000001,\"i_n\":\"ZmlnegsA\",\"j_n\":\"Zw==\",\"d_ts\":0,\"id\":\"KKR-997-WR6Z\",\"hgt\":5.7199999999999998,\"dh\":0,\"v\":2,\"j_s\":\"{}\",\"av\":\"13.2.0\",\"r_ts\":1741582425},\"l_ts\":0,\"f_ts\":1741582424,\"g\":\"-v9bfcad5b02ff48ac8b031cc11ab39918\"},{\"pai\":\"ph.pdax.mobile.dev\",\"n\":\"_bg\",\"evtName\":\"App Launched\",\"dsync\":true,\"pg\":1,\"evtData\":{\"wdt\":\"2.64\",\"OS Version\":\"17.0\",\"Version\":\"13.2.0\",\"Build\":\"1230\",\"Model\":\"iPhone15,5\",\"ifv\":\"9bfcad5b02ff48ac8b031cc11ab39918\",\"ifaA\":false,\"locale\":\"en-US_XX\",\"SDK Version\":70001,\"useIP\":false,\"OS\":\"iOS\",\"hgt\":\"5.72\",\"Make\":\"Apple\"},\"ep\":1741582425,\"type\":\"event\",\"lsl\":0,\"s\":1741582424,\"f\":true}]",
+            "params": []
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "Server",
+              "value": "CloudFront"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/javascript;charset=utf-8"
+            },
+            {
+              "name": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Date",
+              "value": "Mon, 10 Mar 2025 04:53:46 GMT"
+            },
+            {
+              "name": "X-Frame-Options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache, no-store, no-cache, no-store"
+            },
+            {
+              "name": "Strict-Transport-Security",
+              "value": "max-age=31536000;includeSubDomains;preload"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Expires",
+              "value": "0"
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding, User-Agent"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "X-Cache",
+              "value": "Miss from cloudfront"
+            },
+            {
+              "name": "Via",
+              "value": "1.1 f73591660e8618bbc7361ba2a488003c.cloudfront.net (CloudFront)"
+            },
+            {
+              "name": "X-Amz-Cf-Pop",
+              "value": "MNL52-P2"
+            },
+            {
+              "name": "X-Amz-Cf-Id",
+              "value": "vAJTDhT4t2zEnOmAO0JIyE2L3sM70hbVC78OLH9I1HZy7puyMzRESg=="
+            }
+          ],
+          "content": {
+            "size": 0,
+            "compression": 0,
+            "mimeType": "text/javascript;charset=utf-8"
+          },
+          "redirectURL": "",
+          "headersSize": 753,
+          "bodySize": 182
+        },
+        "cache": {
+
+        },
+        "timings": {
+          "send": 6,
+          "receive": 6,
+          "wait": 296,
+          "connect": -1000,
+          "ssl": -1000
+        }
+      },
+      {
+        "startedDateTime": "2025-03-10T04:53:45.457104+00:00",
+        "time": 1684,
+        "request": {
+          "method": "POST",
+          "url": "https://firebaseinstallations.googleapis.com/v1/projects/testclevertap-18e0b/installations/",
+          "httpVersion": "HTTP/2.0",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "x-firebase-client",
+              "value": "H4sIAAAAAAAAE22RwW7DIAyGXyXiXAiQRpNy7QvsvvTgEGdBYzHCrFpV9d1H1l6STeLi7_fv3zI3MSOkPCBkFt3bTcA7Lll0AmIMKGOAPFH67GtPXD0Yjx99bc2ptSvgTAn7eoLAWI0YA1372pEjiDRyIRfviu5fZ1rQtIe2mnxCCUPua2PUi9JPsEC4Zu94i_3CGULYQdp1RUzTliS3rRm3lgEYpUvA8z41fOWMSf6z1FHZrexCEY6q-cN_T9Ko4tkNfCyqlSlP2opYXjCxp6UErOnfjsZiNe2p1XoQBzFCxvVjhNW2lbqRRovz_XwQT5_o7P0Hj1SHJsQBAAA"
+            },
+            {
+              "name": "x-ios-bundle-identifier",
+              "value": "ph.pdax.mobile.dev"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "user-agent",
+              "value": "PDAX-DEV/1230 CFNetwork/1474 Darwin/23.0.0"
+            },
+            {
+              "name": "x-goog-api-key",
+              "value": "AIzaSyD2nIqvmB-StaCie9pi-YwaQ3AR0hZoxtw"
+            },
+            {
+              "name": "content-length",
+              "value": "131"
+            }
+          ],
+          "queryString": [],
+          "headersSize": 732,
+          "bodySize": 131,
+          "postData": {
+            "mimeType": "application/json",
+            "text": "{\"appId\":\"1:302234022356:ios:7d010afceeeea83bb8e641\",\"fid\":\"d2U30PuErkdfsaPwgmGr9v\",\"authVersion\":\"FIS_v2\",\"sdkVersion\":\"i:11.7.0\"}",
+            "params": []
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "HTTP/2.0",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "content-type",
+              "value": "application/json; charset=UTF-8"
+            },
+            {
+              "name": "vary",
+              "value": "Origin, X-Origin, Referer"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "date",
+              "value": "Mon, 10 Mar 2025 04:53:46 GMT"
+            },
+            {
+              "name": "server",
+              "value": "ESF"
+            },
+            {
+              "name": "content-length",
+              "value": "488"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "0"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "alt-svc",
+              "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+            }
+          ],
+          "content": {
+            "size": 0,
+            "compression": 0,
+            "mimeType": "application/json; charset=UTF-8"
+          },
+          "redirectURL": "",
+          "headersSize": 430,
+          "bodySize": 488
+        },
+        "cache": {
+
+        },
+        "timings": {
+          "send": 2,
+          "receive": 3,
+          "wait": 974,
+          "connect": 1,
+          "ssl": 704
+        }
+      },
+      {
+        "startedDateTime": "2025-03-10T04:53:46.774026+00:00",
+        "time": 1149,
+        "request": {
+          "method": "POST",
+          "url": "https://4obd7o-dlsdk.appsflyersdk.com/v1.0/ios/id6472164959?sdk_version=6.15&af_sig=880d35f4e3b577bda7c07e6d8c2a249c0058d801fcce48db9cce28617c7978ce",
+          "httpVersion": "HTTP/2.0",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "accept",
+              "value": "application/json"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "user-agent",
+              "value": "PDAX-DEV/1230 CFNetwork/1474 Darwin/23.0.0"
+            },
+            {
+              "name": "content-length",
+              "value": "311"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.9"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "sdk_version",
+              "value": "6.15"
+            },
+            {
+              "name": "af_sig",
+              "value": "880d35f4e3b577bda7c07e6d8c2a249c0058d801fcce48db9cce28617c7978ce"
+            }
+          ],
+          "headersSize": 259,
+          "bodySize": 311,
+          "postData": {
+            "mimeType": "application/json",
+            "text": "{\"idfa\":{\"value\":\"00000000-0000-0000-0000-000000000000\",\"type\":\"unhashed\"},\"os\":\"17.0\",\"request_count\":1,\"lang\":\"\",\"idfv\":{\"value\":\"9BFCAD5B-02FF-48AC-8B03-1CC11AB39918\",\"type\":\"unhashed\"},\"request_id\":\"1741582408228-9502488\",\"att_status\":0,\"is_first\":true,\"timestamp\":\"2025-03-10T04:53:44.632\",\"type\":\"iPhone\"}",
+            "params": []
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "HTTP/2.0",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "content-length",
+              "value": "32"
+            },
+            {
+              "name": "date",
+              "value": "Mon, 10 Mar 2025 04:53:46 GMT"
+            },
+            {
+              "name": "server",
+              "value": "http-kit"
+            },
+            {
+              "name": "x-cache",
+              "value": "Miss from cloudfront"
+            },
+            {
+              "name": "via",
+              "value": "1.1 f48a1fcb41078cee4a3d854ab5c6637c.cloudfront.net (CloudFront)"
+            },
+            {
+              "name": "x-amz-cf-pop",
+              "value": "MNL52-P3"
+            },
+            {
+              "name": "x-amz-cf-id",
+              "value": "JAAYJljJgF0FupXqMd2SCvJqEi3DIdjAYfxR1XUBKCJw1W2Bq_bCCA=="
+            }
+          ],
+          "content": {
+            "size": 0,
+            "compression": 0,
+            "mimeType": "application/json; charset=utf-8"
+          },
+          "redirectURL": "",
+          "headersSize": 390,
+          "bodySize": 32
+        },
+        "cache": {
+
+        },
+        "timings": {
+          "send": 2,
+          "receive": 6,
+          "wait": 529,
+          "connect": 2,
+          "ssl": 610
+        }
+      },
+      {
+        "startedDateTime": "2025-03-10T04:53:47.351270+00:00",
+        "time": 1662,
+        "request": {
+          "method": "GET",
+          "url": "https://firebase-settings.crashlytics.com/spi/v2/platforms/ios/gmp/1:302234022356:ios:7d010afceeeea83bb8e641/settings?build_version=1230&display_version=13.2.0",
+          "httpVersion": "HTTP/2.0",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "accept",
+              "value": "application/json"
+            },
+            {
+              "name": "x-crashlytics-installation-id",
+              "value": "d2U30PuErkdfsaPwgmGr9v"
+            },
+            {
+              "name": "x-crashlytics-os-display-version",
+              "value": "17.0"
+            },
+            {
+              "name": "x-crashlytics-device-model",
+              "value": "iPhone15,5"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "x-crashlytics-os-build-version",
+              "value": "21A327"
+            },
+            {
+              "name": "user-agent",
+              "value": "PDAX-DEV/1230 CFNetwork/1474 Darwin/23.0.0"
+            },
+            {
+              "name": "x-crashlytics-api-client-version",
+              "value": "11.7.0"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.9"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "build_version",
+              "value": "1230"
+            },
+            {
+              "name": "display_version",
+              "value": "13.2.0"
+            }
+          ],
+          "headersSize": 447,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "HTTP/2.0",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "vary",
+              "value": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, no-store, max-age=0, must-revalidate"
+            },
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "expires",
+              "value": "Mon, 01 Jan 1990 00:00:00 GMT"
+            },
+            {
+              "name": "date",
+              "value": "Mon, 10 Mar 2025 04:53:48 GMT"
+            },
+            {
+              "name": "cross-origin-opener-policy",
+              "value": "same-origin-allow-popups"
+            },
+            {
+              "name": "cross-origin-resource-policy",
+              "value": "same-site"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "server",
+              "value": "ESF"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "0"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "alt-svc",
+              "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+            }
+          ],
+          "content": {
+            "size": 0,
+            "compression": 0,
+            "mimeType": "application/json; charset=utf-8"
+          },
+          "redirectURL": "",
+          "headersSize": 650,
+          "bodySize": 382
+        },
+        "cache": {
+
+        },
+        "timings": {
+          "send": 143,
+          "receive": 22,
+          "wait": 783,
+          "connect": 2,
+          "ssl": 712
+        }
+      },
+      {
+        "startedDateTime": "2025-03-10T04:53:48.186098+00:00",
+        "time": 1724,
+        "request": {
+          "method": "GET",
+          "url": "https://4obd7o-skadsdk.appsflyersdk.com/api/v2.0/rules?uid=1741582408228-9502488&app_id=id6472164959&currency=USD&sdk_version=6.15.3&os_version=17.0",
+          "httpVersion": "HTTP/2.0",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "af-timestamp",
+              "value": "1741582424634"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "user-agent",
+              "value": "PDAX-DEV/1230 CFNetwork/1474 Darwin/23.0.0"
+            },
+            {
+              "name": "authorization",
+              "value": "e9d60fb9ae71e2b7596a99d3612ff402fa9ea4f74ff6f6da1758a46b4290c43c"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "uid",
+              "value": "1741582408228-9502488"
+            },
+            {
+              "name": "app_id",
+              "value": "id6472164959"
+            },
+            {
+              "name": "currency",
+              "value": "USD"
+            },
+            {
+              "name": "sdk_version",
+              "value": "6.15.3"
+            },
+            {
+              "name": "os_version",
+              "value": "17.0"
+            }
+          ],
+          "headersSize": 303,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "HTTP/2.0",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "content-length",
+              "value": "49"
+            },
+            {
+              "name": "date",
+              "value": "Mon, 10 Mar 2025 04:53:48 GMT"
+            },
+            {
+              "name": "server",
+              "value": "http-kit"
+            },
+            {
+              "name": "x-cache",
+              "value": "Miss from cloudfront"
+            },
+            {
+              "name": "via",
+              "value": "1.1 3190e3fd494593dba8783b33934805c4.cloudfront.net (CloudFront)"
+            },
+            {
+              "name": "x-amz-cf-pop",
+              "value": "MNL52-P3"
+            },
+            {
+              "name": "x-amz-cf-id",
+              "value": "wxmspDRR7beb_6dHKKGzjNJ5xxs66lNEeRUkTHIZhf5wU03-jaPClg=="
+            }
+          ],
+          "content": {
+            "size": 0,
+            "compression": 0,
+            "mimeType": "application/json; charset=utf-8"
+          },
+          "redirectURL": "",
+          "headersSize": 390,
+          "bodySize": 49
+        },
+        "cache": {
+
+        },
+        "timings": {
+          "send": 213,
+          "receive": 6,
+          "wait": 740,
+          "connect": 2,
+          "ssl": 763
+        }
+      },
+      {
+        "startedDateTime": "2025-03-10T04:53:46.951917+00:00",
+        "time": 3063,
+        "request": {
+          "method": "POST",
+          "url": "https://crashlyticsreports-pa.googleapis.com/v1/firelog/legacy/batchlog",
+          "httpVersion": "HTTP/2.0",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "content-type",
+              "value": "application/x-protobuf"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "content-length",
+              "value": "52860"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "user-agent",
+              "value": "datatransport/Unknown cshsupport/UNKNOWN apple/"
+            },
+            {
+              "name": "x-goog-api-key",
+              "value": "AIzaSyB4G40IhwotnuD26vAV-0PAxOVr5zn1BCc"
+            }
+          ],
+          "queryString": [],
+          "headersSize": 343,
+          "bodySize": 225930,
+          "postData": {
+            "mimeType": "application/x-protobuf",
+            "text": "\n\r\n8\b\u000F\"4\u001A\u000217\"\u000417.0*\u00041230:\niPhone15,5B\u0002enZ\u0012ph.pdax.mobile.dev\u0010\t\u001A\r\b22\r\n\u000611.7.0\u001A)1:302234022356:ios:7d010afceeeea83bb8e641 \u0001*$F9FB35EE-84AA-423B-8FA9-8730DE24FAEB2\u00041230:\u000613.2.0R\r\n\n\n\u0017binary_images.clsrecord\u0012\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Runner\",\"uuid\":\"c4bcde3d878e35d5b7e7ea77e4abb802\",\"base\":4377690112,\"size\":8978432}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/CleverTapSDK.framework/CleverTapSDK\",\"bundle_id\":\"org.cocoapods.CleverTapSDK\",\"build_version\":\"1\",\"display_version\":\"7.0.1\",\"uuid\":\"003cfb80d2b03bb78457141fe27b9e06\",\"base\":4397318144,\"size\":770048}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/DKImagePickerController.framework/DKImagePickerController\",\"bundle_id\":\"org.cocoapods.DKImagePickerController\",\"build_version\":\"1\",\"display_version\":\"4.3.9\",\"uuid\":\"dc456595152836638b5e786211d41253\",\"base\":4399104000,\"size\":409600}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/DKPhotoGallery.framework/DKPhotoGallery\",\"bundle_id\":\"org.cocoapods.DKPhotoGallery\",\"build_version\":\"1\",\"display_version\":\"0.0.19\",\"uuid\":\"7d0caecf0de13e79932986364f8e7afc\",\"base\":4391124992,\"size\":311296}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/FBLPromises.framework/FBLPromises\",\"bundle_id\":\"org.cocoapods.FBLPromises\",\"build_version\":\"1\",\"display_version\":\"2.4.0\",\"uuid\":\"02b6c007e62f31b19ab3e8a598224c35\",\"base\":4390453248,\"size\":65536}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/FirebaseABTesting.framework/FirebaseABTesting\",\"bundle_id\":\"org.cocoapods.FirebaseABTesting\",\"build_version\":\"1\",\"display_version\":\"11.7.0\",\"uuid\":\"7bd7f22ba8dc381db7155b8ec93c71b4\",\"base\":4390649856,\"size\":49152}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/FirebaseCore.framework/FirebaseCore\",\"bundle_id\":\"org.cocoapods.FirebaseCore\",\"build_version\":\"1\",\"display_version\":\"11.7.0\",\"uuid\":\"dee919db79123647912b770d087970eb\",\"base\":4391993344,\"size\":81920}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/FirebaseCoreExtension.framework/FirebaseCoreExtension\",\"bundle_id\":\"org.cocoapods.FirebaseCoreExtension\",\"build_version\":\"1\",\"display_version\":\"11.7.0\",\"uuid\":\"74eb1fcf417b341e8a5572d0c1a15715\",\"base\":4390354944,\"size\":32768}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/FirebaseCoreInternal.framework/FirebaseCoreInternal\",\"bundle_id\":\"org.cocoapods.FirebaseCoreInternal\",\"build_version\":\"1\",\"display_version\":\"11.7.0\",\"uuid\":\"063d9ead8c1336a3ac4283b29fbfe865\",\"base\":4400644096,\"size\":131072}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/FirebaseCrashlytics.framework/FirebaseCrashlytics\",\"bundle_id\":\"org.cocoapods.FirebaseCrashlytics\",\"build_version\":\"1\",\"display_version\":\"11.7.0\",\"uuid\":\"acb02a953b553705b39ac994290e8d03\",\"base\":4401856512,\"size\":311296}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/FirebaseInstallations.framework/FirebaseInstallations\",\"bundle_id\":\"org.cocoapods.FirebaseInstallations\",\"build_version\":\"1\",\"display_version\":\"11.7.0\",\"uuid\":\"5b776990412437c0be5288c5f7960a9b\",\"base\":4392206336,\"size\":98304}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/FirebasePerformance.framework/FirebasePerformance\",\"bundle_id\":\"org.cocoapods.FirebasePerformance\",\"build_version\":\"1\",\"display_version\":\"11.7.0\",\"uuid\":\"58926c1d616b315eaacc5c081ffbeee8\",\"base\":4402692096,\"size\":212992}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/FirebaseRemoteConfig.framework/FirebaseRemoteConfig\",\"bundle_id\":\"org.cocoapods.FirebaseRemoteConfig\",\"build_version\":\"1\",\"display_version\":\"11.7.0\",\"uuid\":\"8f6735974c0f31b8abe86058c3622500\",\"base\":4403232768,\"size\":196608}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/FirebaseRemoteConfigInterop.framework/FirebaseRemoteConfigInterop\",\"bundle_id\":\"org.cocoapods.FirebaseRemoteConfigInterop\",\"build_version\":\"1\",\"display_version\":\"11.8.0\",\"uuid\":\"ca3338551630319b8a8f381753d98f2c\",\"base\":4390928384,\"size\":49152}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/FirebaseSessions.framework/FirebaseSessions\",\"bundle_id\":\"org.cocoapods.FirebaseSessions\",\"build_version\":\"1\",\"display_version\":\"11.7.0\",\"uuid\":\"09ad3d2870d933fcadb4a2bb2fe8770d\",\"base\":4401020928,\"size\":131072}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/FirebaseSharedSwift.framework/FirebaseSharedSwift\",\"bundle_id\":\"org.cocoapods.FirebaseSharedSwift\",\"build_version\":\"1\",\"display_version\":\"11.8.0\",\"uuid\":\"75f6a63787b43973979078c66c5a1148\",\"base\":4404248576,\"size\":196608}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/GoogleDataTransport.framework/GoogleDataTransport\",\"bundle_id\":\"org.cocoapods.GoogleDataTransport\",\"build_version\":\"1\",\"display_version\":\"10.1.0\",\"uuid\":\"c03ea54b70793215accf35eacf2ebac0\",\"base\":4403724288,\"size\":163840}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/GoogleUtilities.framework/GoogleUtilities\",\"bundle_id\":\"org.cocoapods.GoogleUtilities\",\"build_version\":\"1\",\"display_version\":\"8.0.2\",\"uuid\":\"43c40dc3fe333368931de899c0589114\",\"base\":4401414144,\"size\":131072}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/IOSSecuritySuite.framework/IOSSecuritySuite\",\"bundle_id\":\"org.cocoapods.IOSSecuritySuite\",\"build_version\":\"1\",\"display_version\":\"2.1.0\",\"uuid\":\"559e50c7ed2531409fb8044655dbe1ea\",\"base\":4404772864,\"size\":98304}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/MDFInternationalization.framework/MDFInternationalization\",\"bundle_id\":\"org.cocoapods.MDFInternationalization\",\"build_version\":\"1\",\"display_version\":\"3.0.0\",\"uuid\":\"bd788066c94d3f1e8aa5856753964bbc\",\"base\":4400267264,\"size\":32768}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/MTBBarcodeScanner.framework/MTBBarcodeScanner\",\"bundle_id\":\"org.cocoapods.MTBBarcodeScanner\",\"build_version\":\"1\",\"display_version\":\"5.0.11\",\"uuid\":\"adc8f528aea331efa6e40e25ccfbcaa5\",\"base\":4400381952,\"size\":49152}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/MaterialComponents.framework/MaterialComponents\",\"bundle_id\":\"org.cocoapods.MaterialComponents\",\"build_version\":\"1\",\"display_version\":\"124.2.0\",\"uuid\":\"e9c588cc55c83bacab2b1b3b56714bf6\",\"base\":4405346304,\"size\":114688}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/OrderedSet.framework/OrderedSet\",\"bundle_id\":\"org.cocoapods.OrderedSet\",\"build_version\":\"1\",\"display_version\":\"6.0.3\",\"uuid\":\"8b8fcd370bc6389e8fd46e49496d2107\",\"base\":4405673984,\"size\":65536}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/Plotline.framework/Plotline\",\"bundle_id\":\"plotline.Plotline\",\"build_version\":\"1\",\"display_version\":\"1.0\",\"uuid\":\"0d6e260ae137328d8e6e16971529a320\",\"base\":4407885824,\"size\":1507328}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/Promises.framework/Promises\",\"bundle_id\":\"org.cocoapods.Promises\",\"build_version\":\"1\",\"display_version\":\"2.4.0\",\"uuid\":\"b1baf6f1a7d234e78c6dc803c3feab8d\",\"base\":4405854208,\"size\":81920}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/SDWebImage.framework/SDWebImage\",\"bundle_id\":\"org.cocoapods.SDWebImage\",\"build_version\":\"1\",\"display_version\":\"5.21.0\",\"uuid\":\"52cacc5374df32379e2d3bfc71261528\",\"base\":4406984704,\"size\":344064}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/SwiftyGif.framework/SwiftyGif\",\"bundle_id\":\"org.cocoapods.SwiftyGif\",\"build_version\":\"1\",\"display_version\":\"5.4.5\",\"uuid\":\"3180877d991d3181b31ee5c3e9d2c209\",\"base\":4406083584,\"size\":98304}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/advertising_id.framework/advertising_id\",\"bundle_id\":\"org.cocoapods.advertising-id\",\"build_version\":\"1\",\"display_version\":\"0.0.1\",\"uuid\":\"9ede6d35ba8136f0a42f44c7c60c35ec\",\"base\":4401725440,\"size\":49152}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/app_links.framework/app_links\",\"bundle_id\":\"org.cocoapods.app-links\",\"build_version\":\"1\",\"display_version\":\"0.0.2\",\"uuid\":\"8ec582b93da33aa09756688e227a7b8c\",\"base\":4405018624,\"size\":49152}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/app_settings.framework/app_settings\",\"bundle_id\":\"org.cocoapods.app-settings\",\"build_version\":\"1\",\"display_version\":\"5.1.1\",\"uuid\":\"5c47b8953792395eb303b23cdd1a33c4\",\"base\":4406345728,\"size\":65536}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/app_tracking_transparency.framework/app_tracking_transparency\",\"bundle_id\":\"org.cocoapods.app-tracking-transparency\",\"build_version\":\"1\",\"display_version\":\"0.0.1\",\"uuid\":\"6561817d85713da3b23fa7a644ab59d0\",\"base\":4405166080,\"size\":49152}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/audio_session.framework/audio_session\",\"bundle_id\":\"org.cocoapods.audio-session\",\"build_version\":\"1\",\"display_version\":\"0.0.1\",\"uuid\":\"d035936d47f63e7daec2f8754b937641\",\"base\":4406689792,\"size\":65536}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/camera_avfoundation.framework/camera_avfoundation\",\"bundle_id\":\"org.cocoapods.camera-avfoundation\",\"build_version\":\"1\",\"display_version\":\"0.0.1\",\"uuid\":\"c515a6fc440b3c9e9e53c1ef6da18a7e\",\"base\":4410343424,\"size\":147456}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/clevertap_plugin.framework/clevertap_plugin\",\"bundle_id\":\"org.cocoapods.clevertap-plugin\",\"build_version\":\"1\",\"display_version\":\"2.5.0\",\"uuid\":\"82b3f1513a9435f3bebc66b6a9e94f41\",\"base\":4410130432,\"size\":98304}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/connectivity_plus.framework/connectivity_plus\",\"bundle_id\":\"org.cocoapods.connectivity-plus\",\"build_version\":\"1\",\"display_version\":\"0.0.1\",\"uuid\":\"0a54d74da979329b8047dcc2e7110e6c\",\"base\":4409917440,\"size\":49152}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/device_info_plus.framework/device_info_plus\",\"bundle_id\":\"org.cocoapods.device-info-plus\",\"build_version\":\"1\",\"display_version\":\"0.0.1\",\"uuid\":\"32482bce59da3a7a9eb19cda7aa8ff84\",\"base\":4400529408,\"size\":49152}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/file_picker.framework/file_picker\",\"bundle_id\":\"org.cocoapods.file-picker\",\"build_version\":\"1\",\"display_version\":\"0.0.1\",\"uuid\":\"5564d1030beb3dfc9c04bea0ca26d40e\",\"base\":4410769408,\"size\":65536}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/flutter_inappwebview_ios.framework/flutter_inappwebview_ios\",\"bundle_id\":\"org.cocoapods.flutter-inappwebview-ios\",\"build_version\":\"1\",\"display_version\":\"0.0.1\",\"uuid\":\"6de23c8524593218b7ae264dadfc8134\",\"base\":4413423616,\"size\":983040}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/flutter_local_notifications.framework/flutter_local_notifications\",\"bundle_id\":\"org.cocoapods.flutter-local-notifications\",\"build_version\":\"1\",\"display_version\":\"0.0.1\",\"uuid\":\"efb559400227335c8d0c465efd7af74c\",\"base\":4410933248,\"size\":65536}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/flutter_secure_storage.framework/flutter_secure_storage\",\"bundle_id\":\"org.cocoapods.flutter-secure-storage\",\"build_version\":\"1\",\"display_version\":\"6.0.0\",\"uuid\":\"fe8aa8e7957232cdbb5e899b7c2c782f\",\"base\":4411293696,\"size\":81920}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/image_gallery_saver_plus.framework/image_gallery_saver_plus\",\"bundle_id\":\"org.cocoapods.image-gallery-saver-plus\",\"build_version\":\"1\",\"display_version\":\"0.0.1\",\"uuid\":\"b87ebeff571535ed8a1078e46028c2d8\",\"base\":4411490304,\"size\":65536}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/in_app_review.framework/in_app_review\",\"bundle_id\":\"org.cocoapods.in-app-review\",\"build_version\":\"1\",\"display_version\":\"2.0.0\",\"uuid\":\"7660001f5ff03c189d56d101870fa3a2\",\"base\":4411097088,\"size\":65536}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/just_audio.framework/just_audio\",\"bundle_id\":\"org.cocoapods.just-audio\",\"build_version\":\"1\",\"display_version\":\"0.0.1\",\"uuid\":\"b4b4022a788632ccb81996bed855ba42\",\"base\":4411867136,\"size\":81920}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/local_auth_darwin.framework/local_auth_darwin\",\"bundle_id\":\"org.cocoapods.local-auth-darwin\",\"build_version\":\"1\",\"display_version\":\"0.0.1\",\"uuid\":\"d0db381d43383f1baa801241d9d9f579\",\"base\":4406525952,\"size\":49152}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/nanopb.framework/nanopb\",\"bundle_id\":\"org.cocoapods.nanopb\",\"build_version\":\"1\",\"display_version\":\"3.30910.0\",\"uuid\":\"1f5b6f4d8158338888952e98a09ec602\",\"base\":4390780928,\"size\":32768}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/open_file_plus.framework/open_file_plus\",\"bundle_id\":\"org.cocoapods.open-file-plus\",\"build_version\":\"1\",\"display_version\":\"1.0.0\",\"uuid\":\"6abf7ab1fd413011a8dee36694a88fc4\",\"base\":4404133888,\"size\":32768}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/open_filex.framework/open_filex\",\"bundle_id\":\"org.cocoapods.open-filex\",\"build_version\":\"1\",\"display_version\":\"0.0.2\",\"uuid\":\"5ed2d91229713903a909ea7371e41202\",\"base\":4406853632,\"size\":32768}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/package_info_plus.framework/package_info_plus\",\"bundle_id\":\"org.cocoapods.package-info-plus\",\"build_version\":\"1\",\"display_version\":\"0.4.5\",\"uuid\":\"93faa77c4b673139aea45227efb25ff0\",\"base\":4411670528,\"size\":32768}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/path_provider_foundation.framework/path_provider_foundation\",\"bundle_id\":\"org.cocoapods.path-provider-foundation\",\"build_version\":\"1\",\"display_version\":\"0.0.1\",\"uuid\":\"3d15ec5248583a23af61105891e64446\",\"base\":4412227584,\"size\":49152}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/plotline_engage.framework/plotline_engage\",\"bundle_id\":\"org.cocoapods.plotline-engage\",\"build_version\":\"1\",\"display_version\":\"1.4.0\",\"uuid\":\"5f91799394c63e2e9543a262a34cfe28\",\"base\":4412620800,\"size\":98304}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/qr_code_scanner_plus.framework/qr_code_scanner_plus\",\"bundle_id\":\"org.cocoapods.qr-code-scanner-plus\",\"build_version\":\"1\",\"display_version\":\"0.2.6\",\"uuid\":\"eea70153f88431258321a1a1b5c5368c\",\"base\":4412850176,\"size\":81920}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/sensors_plus.framework/sensors_plus\",\"bundle_id\":\"org.cocoapods.sensors-plus\",\"build_version\":\"1\",\"display_version\":\"0.0.1\",\"uuid\":\"42c38df0643e37b099469155c7374842\",\"base\":4413063168,\"size\":65536}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/share_plus.framework/share_plus\",\"bundle_id\":\"org.cocoapods.share-plus\",\"build_version\":\"1\",\"display_version\":\"0.0.1\",\"uuid\":\"3d7b562d0c65307f9ae2c41daa63bd17\",\"base\":4412391424,\"size\":49152}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/shared_preferences_foundation.framework/shared_preferences_foundation\",\"bundle_id\":\"org.cocoapods.shared-preferences-foundation\",\"build_version\":\"1\",\"display_version\":\"0.0.1\",\"uuid\":\"ce683ef4900a3315a242ecb33a9d1a06\",\"base\":4416143360,\"size\":81920}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/sqflite_darwin.framework/sqflite_darwin\",\"bundle_id\":\"org.cocoapods.sqflite-darwin\",\"build_version\":\"1\",\"display_version\":\"0.0.4\",\"uuid\":\"d56e857152483c169294a43bb79b332b\",\"base\":4416651264,\"size\":114688}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/tampered_device_checks.framework/tampered_device_checks\",\"bundle_id\":\"org.cocoapods.tampered-device-checks\",\"build_version\":\"1\",\"display_version\":\"0.0.1\",\"uuid\":\"647dd0836e4b3173bb496113ad2ca92b\",\"base\":4413259776,\"size\":49152}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/url_launcher_ios.framework/url_launcher_ios\",\"bundle_id\":\"org.cocoapods.url-launcher-ios\",\"build_version\":\"1\",\"display_version\":\"0.0.1\",\"uuid\":\"33d5329624fc361cbdb0d63be5d57487\",\"base\":4416356352,\"size\":65536}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/vibration.framework/vibration\",\"bundle_id\":\"org.cocoapods.vibration\",\"build_version\":\"1\",\"display_version\":\"1.7.5\",\"uuid\":\"88c3f2762fdb30de8ef9b80420a4bd96\",\"base\":4415930368,\"size\":65536}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/video_player_avfoundation.framework/video_player_avfoundation\",\"bundle_id\":\"org.cocoapods.video-player-avfoundation\",\"build_version\":\"1\",\"display_version\":\"0.0.1\",\"uuid\":\"fd31e52def1e3013b504a61045da9d60\",\"base\":4417175552,\"size\":81920}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/wakelock_plus.framework/wakelock_plus\",\"bundle_id\":\"org.cocoapods.wakelock-plus\",\"build_version\":\"1\",\"display_version\":\"0.0.1\",\"uuid\":\"d3d00aa6c51a3b1db5212cc5bef329e5\",\"base\":4416946176,\"size\":32768}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/webview_flutter_wkwebview.framework/webview_flutter_wkwebview\",\"bundle_id\":\"org.cocoapods.webview-flutter-wkwebview\",\"build_version\":\"1\",\"display_version\":\"0.0.1\",\"uuid\":\"ba063844559d367a9ab6c5aacc6ffae3\",\"base\":4417978368,\"size\":196608}}\n{\"load\":{\"path\":\"/private/var/containers/Bundle/Application/18D0C57C-5081-4734-8D61-A287CE46B5D3/Runner.app/Frameworks/Flutter.framework/Flutter\",\"bundle_id\":\"io.flutter.flutter\",\"build_version\":\"1.0\",\"display_version\":\"1.0\",\"uuid\":\"4c4c44fb55553144a1ac2283bc901480\",\"base\":4428431360,\"size\":9093120}}\n{\"load\":{\"path\":\"/usr/lib/libc++.1.dylib\",\"uuid\":\"ba03dc6b6b8e363b8504f2d780503646\",\"base\":6865215488,\"size\":581632}}\n{\"load\":{\"path\":\"/usr/lib/libSystem.B.dylib\",\"uuid\":\"3d915d1c10d53e829ff942360a58f992\",\"base\":8360808448,\"size\":8180}}\n{\"load\":{\"path\":\"/usr/lib/libc++abi.dylib\",\"uuid\":\"f26061f8fa3a3b11adf33b98d17f75f3\",\"base\":8359276544,\"size\":98304}}\n{\"load\":{\"path\":\"/usr/lib/system/libcache.dylib\",\"uuid\":\"53b4229b105131c9b592e41785752ed2\",\"base\":8789983232,\"size\":24572}}\n{\"load\":{\"path\":\"/usr/lib/system/libcommonCrypto.dylib\",\"uuid\":\"454e2fe8af973a059c73821f78459982\",\"base\":8359219200,\"size\":57340}}\n{\"load\":{\"path\":\"/usr/lib/system/libcompiler_rt.dylib\",\"uuid\":\"fd7517cfdd4e3a6581875016d66fe8c2\",\"base\":8359419904,\"size\":16384}}\n{\"load\":{\"path\":\"/usr/lib/system/libcopyfile.dylib\",\"uuid\":\"674d3239abbf323998534052d03d60b0\",\"base\":8359178240,\"size\":40948}}\n{\"load\":{\"path\":\"/usr/lib/system/libcorecrypto.dylib\",\"uuid\":\"fa6a21cf271633b295cc017830966b77\",\"base\":8359522304,\"size\":643016}}\n{\"load\":{\"path\":\"/usr/lib/system/libdispatch.dylib\",\"uuid\":\"149ff9cd3e92321db92fef58717c70b6\",\"base\":6729936896,\"size\":290816}}\n{\"load\":{\"path\":\"/usr/lib/system/libdyld.dylib\",\"uuid\":\"ca0deec73ab8351babce7ff89279fd69\",\"base\":7225589760,\"size\":147444}}\n{\"load\":{\"path\":\"/usr/lib/system/libmacho.dylib\",\"uuid\":\"d1140b683a6736c6b03fe606c9dd28b4\",\"base\":8940580864,\"size\":24576}}\n{\"load\":{\"path\":\"/usr/lib/system/libremovefile.dylib\",\"uuid\":\"c5916a801b81306286233985147bc9af\",\"base\":8789692416,\"size\":12284}}\n{\"load\":{\"path\":\"/usr/lib/system/libsystem_asl.dylib\",\"uuid\":\"95cdcd8443e9393fb69663af0b816aa5\",\"base\":8349523968,\"size\":98300}}\n{\"load\":{\"path\":\"/usr/lib/system/libsystem_blocks.dylib\",\"uuid\":\"8e0224211c6f32ee968131bdd2389a6c\",\"base\":8360165376,\"size\":20473}}\n{\"load\":{\"path\":\"/usr/lib/system/libsystem_c.dylib\",\"uuid\":\"22c9aa2eb4fd3568a6d3e4953c51f6c2\",\"base\":6730227712,\"size\":516092}}\n{\"load\":{\"path\":\"/usr/lib/system/libsystem_collections.dylib\",\"uuid\":\"df115e50385d3a5aaf556f661e5b3861\",\"base\":9002356736,\"size\":20476}}\n{\"load\":{\"path\":\"/usr/lib/system/libsystem_configuration.dylib\",\"uuid\":\"f1b9d665fead39b1823c54c24fb8f885\",\"base\":8360742912,\"size\":20480}}\n{\"load\":{\"path\":\"/usr/lib/system/libsystem_containermanager.dylib\",\"uuid\":\"7a63d40a2fa33b27af3a40c622119a6e\",\"base\":7831425024,\"size\":176120}}\n{\"load\":{\"path\":\"/usr/lib/system/libsystem_coreservices.dylib\",\"uuid\":\"114614d11ffe329c91c75a143c81468a\",\"base\":6730743808,\"size\":12288}}\n{\"load\":{\"path\":\"/usr/lib/system/libsystem_darwin.dylib\",\"uuid\":\"36bf27f3981e3aeeb954f6472292ac12\",\"base\":8360763392,\"size\":45056}}\n{\"load\":{\"path\":\"/usr/lib/system/libsystem_darwindirectory.dylib\",\"uuid\":\"6da75520a9d83487948ccd9dab94fd31\",\"base\":8816930816,\"size\":16384}}\n{\"load\":{\"path\":\"/usr/lib/system/libsystem_dnssd.dylib\",\"uuid\":\"ad044be4ff753e1fabf549ab31f25c0c\",\"base\":8359456768,\"size\":36856}}\n{\"load\":{\"path\":\"/usr/lib/system/libsystem_featureflags.dylib\",\"uuid\":\"d45061204d3d3f8fa9790391e2cc6b7c\",\"base\":7783645184,\"size\":12284}}\n{\"load\":{\"path\":\"/usr/lib/system/libsystem_info.dylib\",\"uuid\":\"8c1644ad623c3f64bf56c94b29aa5e7e\",\"base\":6865043456,\"size\":172020}}\n{\"load\":{\"path\":\"/usr/lib/system/libsystem_m.dylib\",\"uuid\":\"7a9a87ee329c35b485815ccc0c7c4e65\",\"base\":8360235008,\"size\":225280}}\n{\"load\":{\"path\":\"/usr/lib/system/libsystem_malloc.dylib\",\"uuid\":\"ca007ce6194330028bfe638940890886\",\"base\":6863089664,\"size\":192508}}\n{\"load\":{\"path\":\"/usr/lib/system/libsystem_networkextension.dylib\",\"uuid\":\"c1b30f0ea8a23a03a4de2ed5a177785d\",\"base\":7022051328,\"size\":110580}}\n{\"load\":{\"path\":\"/usr/lib/system/libsystem_notify.dylib\",\"uuid\":\"1aee3f30ba403dbca8cbc7901a2c2bcb\",\"base\":7312072704,\"size\":45048}}\n{\"load\":{\"path\":\"/usr/lib/system/libsystem_sandbox.dylib\",\"uuid\":\"dee8c41a95083895a6eed84bc87904c2\",\"base\":8359436288,\"size\":20472}}\n{\"load\":{\"path\":\"/usr/lib/system/libsystem_kernel.dylib\",\"uuid\":\"8ffa1d4847723fe7b12134b042cf6ad4\",\"base\":7783411712,\"size\":233472}}\n{\"load\":{\"path\":\"/usr/lib/system/libsystem_platform.dylib\",\"uuid\":\"6953772be1aa3d9a8740e25922813789\",\"base\":8359493632,\"size\":28648}}\n{\"load\":{\"path\":\"/usr/lib/system/libsystem_pthread.dylib\",\"uuid\":\"a6f90d4f844f352ba20033b3948cc3e8\",\"base\":8360185856,\"size\":49140}}\n{\"load\":{\"path\":\"/usr/lib/system/libsystem_symptoms.dylib\",\"uuid\":\"4f4667fc4c5934a691dce4e3b72b9028\",\"base\":7729250304,\"size\":36856}}\n{\"load\":{\"path\":\"/usr/lib/system/libsystem_trace.dylib\",\"uuid\":\"360645ac50dd378abb8717e6ed5d0d78\",\"base\":7020986368,\"size\":110592}}\n{\"load\":{\"path\":\"/usr/lib/system/libunwind.dylib\",\"uuid\":\"6e4a341f9a60338fb669ba078158f8d2\",\"base\":8359374848,\"size\":45056}}\n{\"load\":{\"path\":\"/usr/lib/system/libxpc.dylib\",\"uuid\":\"8e13493aac3e3eef8b3e102a3d715b23\",\"base\":8360460288,\"size\":282624}}\n{\"load\":{\"path\":\"/usr/lib/libobjc.A.dylib\",\"uuid\":\"9ba37a0517b33a91aa2fbca187705a76\",\"base\":6466387968,\"size\":319233}}\n{\"load\":{\"path\":\"/usr/lib/libsqlite3.dylib\",\"uuid\":\"890023fa73c53897ac87bb31ec254531\",\"base\":7281766400,\"size\":1499132}}\n{\"load\":{\"path\":\"/usr/lib/swift/libswiftCoreGraphics.dylib\",\"uuid\":\"7c993a97341b366b96b1dd33ec7cf56a\",\"base\":7263207424,\"size\":28672}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics\",\"uuid\":\"43ffc5ef9ae03d6b950f7ca737b02547\",\"base\":6625353728,\"size\":6971392}}\n{\"load\":{\"path\":\"/usr/lib/swift/libswiftCore.dylib\",\"uuid\":\"cb3695a9084b3283ac6c5ba8f46ff6c1\",\"base\":6483849216,\"size\":5595136}}\n{\"load\":{\"path\":\"/usr/lib/swift/libswiftCoreFoundation.dylib\",\"uuid\":\"1d4d2d6daa9d39baa3036aedfa6e1d0a\",\"base\":7484477440,\"size\":28672}}\n{\"load\":{\"path\":\"/usr/lib/swift/libswiftDarwin.dylib\",\"uuid\":\"5a27e18487d3322eaf3595888c030baa\",\"base\":8363462656,\"size\":40952}}\n{\"load\":{\"path\":\"/usr/lib/swift/libswiftDispatch.dylib\",\"uuid\":\"06a83ccd98a13b159e99d97298dd8b43\",\"base\":6751432704,\"size\":102400}}\n{\"load\":{\"path\":\"/usr/lib/swift/libswiftObjectiveC.dylib\",\"uuid\":\"171ef18f7c813cea9547d3556d1f42d9\",\"base\":7348854784,\"size\":16382}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/FontServices.framework/libFontParser.dylib\",\"uuid\":\"e8ba9c5f0d3a3095a0bc58c7a7892344\",\"base\":7339831296,\"size\":1400832}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking\",\"uuid\":\"96d8e36a95d83a359f5b45a42fea4cce\",\"base\":9061597184,\"size\":4092}}\n{\"load\":{\"path\":\"/usr/lib/libicucore.A.dylib\",\"uuid\":\"62d5f8600d2032b7b8383c78899e8225\",\"base\":6756057088,\"size\":2830328}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics\",\"uuid\":\"13f7fcff38803cbb879d11b8da0bd276\",\"base\":7159898112,\"size\":192512}}\n{\"load\":{\"path\":\"/usr/lib/libMobileGestalt.dylib\",\"uuid\":\"be204564b1f63c37b6c9d75b8f4bee1b\",\"base\":7015751680,\"size\":524256}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/IOSurface.framework/IOSurface\",\"uuid\":\"ac74d71925ee3d5fbcba82400633b1e5\",\"base\":7159799808,\"size\":98304}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation\",\"uuid\":\"ceb74a0c5ea43f5a9de873f0dad2f4cb\",\"base\":6596595712,\"size\":5427200}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/Foundation.framework/Foundation\",\"uuid\":\"60f744f41345325e8970d37bb5a1a31d\",\"base\":6579404800,\"size\":11972608}}\n{\"load\":{\"path\":\"/usr/lib/libz.1.dylib\",\"uuid\":\"799e900592ea3c85b4198c540d3a9e07\",\"base\":9045590016,\"size\":61440}}\n{\"load\":{\"path\":\"/usr/lib/libxml2.2.dylib\",\"uuid\":\"bbb7d80429be3a89938a91e7205b68ee\",\"base\":7338872832,\"size\":958452}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/Accelerate.framework/Accelerate\",\"uuid\":\"7c7d86835186308bbb0e98423dddef0e\",\"base\":8753893376,\"size\":4096}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/CFNetwork.framework/CFNetwork\",\"uuid\":\"53e3f6cd98863cf6ac53304cbf6a5181\",\"base\":6614179840,\"size\":4038656}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/FontServices.framework/libhvf.dylib\",\"uuid\":\"f1003e94020838ada5f908a93381e8a9\",\"base\":8401874944,\"size\":45056}}\n{\"load\":{\"path\":\"/usr/lib/libcompression.dylib\",\"uuid\":\"dc9a85ec8baa315bb7028caea98852ce\",\"base\":8362496000,\"size\":843728}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/Accelerate.framework/Frameworks/vImage.framework/vImage\",\"uuid\":\"cc292813335f3bd88804b06796613f0f\",\"base\":6698049536,\"size\":3309528}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/vecLib\",\"uuid\":\"ec3dfd0e5438302f87bf030521068914\",\"base\":8795721728,\"size\":4096}}\n{\"load\":{\"path\":\"/usr/lib/liblzma.5.dylib\",\"uuid\":\"098032d28cef3480a5c02c81a77565b2\",\"base\":8979181568,\"size\":102388}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libvMisc.dylib\",\"uuid\":\"caa891e7731c39d8bb8d89b5953a7bcf\",\"base\":9091584000,\"size\":380920}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libvDSP.dylib\",\"uuid\":\"7b4689993fa530339da7300e64c34dbb\",\"base\":8368877568,\"size\":982840}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libBLAS.dylib\",\"uuid\":\"65ed53657e2c3619bf1d0d8db82ae4d9\",\"base\":8364998656,\"size\":3715040}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libLAPACK.dylib\",\"uuid\":\"0752536182ad353aa0357662f15a240a\",\"base\":8369860608,\"size\":18296784}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libLinearAlgebra.dylib\",\"uuid\":\"a28c0b37733e383f9e4c10b56cfdff71\",\"base\":8368791552,\"size\":86016}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libSparseBLAS.dylib\",\"uuid\":\"8869d0de744e3d85888c56b4d99c1e5c\",\"base\":8368713728,\"size\":77824}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libQuadrature.dylib\",\"uuid\":\"68ed5dfa86ad3aa780159964556d4e06\",\"base\":9051361280,\"size\":20476}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libBNNS.dylib\",\"uuid\":\"b39e637ef466323ab81e09c1dbf6a5e1\",\"base\":8393330688,\"size\":8232952}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libSparse.dylib\",\"uuid\":\"ee96249fe565346ea7841c8abe75b579\",\"base\":8364560384,\"size\":438264}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/MIL.framework/MIL\",\"uuid\":\"02d1768451bc3badbd3f80a9ded876c0\",\"base\":8388157440,\"size\":5173244}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/CoreServicesInternal.framework/CoreServicesInternal\",\"uuid\":\"6eb4d385228e355fbd19af3befa845ff\",\"base\":6489444352,\"size\":217084}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/CoreAutoLayout.framework/CoreAutoLayout\",\"uuid\":\"bc9507573d3038939c9557c92aeb176d\",\"base\":7136935936,\"size\":303104}}\n{\"load\":{\"path\":\"/usr/lib/libarchive.2.dylib\",\"uuid\":\"d80d642ea7bf397983de3d5c4d334e4a\",\"base\":8301404160,\"size\":565240}}\n{\"load\":{\"path\":\"/usr/lib/liblangid.dylib\",\"uuid\":\"fdb7be9329b536418a5e78a666623ab6\",\"base\":8363347968,\"size\":8192}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit\",\"uuid\":\"ee73f47581753b0eac96eb4d3c45cee4\",\"base\":6740766720,\"size\":798720}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/Combine.framework/Combine\",\"uuid\":\"50bccecb2c2036cfa8b1b3ae47ade8d9\",\"base\":6751535104,\"size\":1298432}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/CollectionsInternal.framework/CollectionsInternal\",\"uuid\":\"252762dbcc1533319b608ca6e1806091\",\"base\":9192448000,\"size\":1433600}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/ReflectionInternal.framework/ReflectionInternal\",\"uuid\":\"198a3215ab0f3eca87f2f6de6d3d2e54\",\"base\":9274970112,\"size\":32760}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/RuntimeInternal.framework/RuntimeInternal\",\"uuid\":\"5be62aef613e31c3bd24f10ce36ef0c2\",\"base\":9278398464,\"size\":98296}}\n{\"load\":{\"path\":\"/usr/lib/swift/libswiftXPC.dylib\",\"uuid\":\"19090f51bec33c258c4bb95135dd8fea\",\"base\":8362127360,\"size\":221176}}\n{\"load\":{\"path\":\"/usr/lib/swift/libswift_Concurrency.dylib\",\"uuid\":\"0cf5dda1c2013fbdba50cb7c80195c8c\",\"base\":6782148608,\"size\":389108}}\n{\"load\":{\"path\":\"/usr/lib/swift/libswift_StringProcessing.dylib\",\"uuid\":\"1b611e6b4ff43e25b74b38b30873f57f\",\"base\":8306507776,\"size\":659456}}\n{\"load\":{\"path\":\"/usr/lib/swift/libswiftos.dylib\",\"uuid\":\"ff0a8f79d3473217ad59513e38179d4b\",\"base\":6863282176,\"size\":102400}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/Security.framework/Security\",\"uuid\":\"ec9754700f7a3ee59d648927c70647bc\",\"base\":6739009536,\"size\":1757184}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration\",\"uuid\":\"9113108ea36337d5a5941a829e092153\",\"base\":6780006400,\"size\":561148}}\n{\"load\":{\"path\":\"/usr/lib/libapple_nghttp2.dylib\",\"uuid\":\"8d15478dd402376cb34935b5e930909e\",\"base\":8363356160,\"size\":106488}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/Network.framework/Network\",\"uuid\":\"fea84175e98e3156bb1de670f2a0d000\",\"base\":6602022912,\"size\":12156928}}\n{\"load\":{\"path\":\"/usr/lib/libenergytrace.dylib\",\"uuid\":\"fb78b9d159d13ffea12fb40bb7054da9\",\"base\":8363339776,\"size\":8192}}\n{\"load\":{\"path\":\"/usr/lib/libbsm.0.dylib\",\"uuid\":\"00e955e48cbb3ae69a3fa5f467686347\",\"base\":7606870016,\"size\":73728}}\n{\"load\":{\"path\":\"/usr/lib/libCoreEntitlements.dylib\",\"uuid\":\"bb0eed806bf93a11b51b59a82d7ff0bf\",\"base\":8362446848,\"size\":49152}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/MessageSecurity.framework/MessageSecurity\",\"uuid\":\"652e603a261e3e2d9f4d39b80e26635f\",\"base\":8360816640,\"size\":294912}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer\",\"uuid\":\"bf5e9db8640f3ef5998240a6f15a5940\",\"base\":7177310208,\"size\":106496}}\n{\"load\":{\"path\":\"/usr/lib/libcoretls.dylib\",\"uuid\":\"b41a91556b8d376bb21e45211fe78052\",\"base\":8362348544,\"size\":98292}}\n{\"load\":{\"path\":\"/usr/lib/libcoretls_cfhelpers.dylib\",\"uuid\":\"a874a411896335868678ed12bb6eb623\",\"base\":9002762240,\"size\":8192}}\n{\"load\":{\"path\":\"/usr/lib/libheimdal-asn1.dylib\",\"uuid\":\"4492c8165ae93cc8b94db84ce6633dcc\",\"base\":8361398272,\"size\":24576}}\n{\"load\":{\"path\":\"/usr/lib/libnetwork.dylib\",\"uuid\":\"c06f27f24e0931e19bccbd0e0af494fe\",\"base\":8790040576,\"size\":4096}}\n{\"load\":{\"path\":\"/usr/lib/libpcap.A.dylib\",\"uuid\":\"bdc5969c579a3af38711beac5f8a182a\",\"base\":8361111552,\"size\":217084}}\n{\"load\":{\"path\":\"/usr/lib/libdns_services.dylib\",\"uuid\":\"bed00d3f51613114bbde0923c2d30b2b\",\"base\":8361328640,\"size\":40957}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/IOMobileFramebuffer.framework/IOMobileFramebuffer\",\"uuid\":\"6b838ec4809339578a53f94895107ff4\",\"base\":7405670400,\"size\":65536}}\n{\"load\":{\"path\":\"/usr/lib/swift/libswift_RegexParser.dylib\",\"uuid\":\"8f68e24c35b13a27b1d102c30383a0d3\",\"base\":8361422848,\"size\":700416}}\n{\"load\":{\"path\":\"/usr/lib/libbz2.1.0.dylib\",\"uuid\":\"3c7d1eb8a57a35298f29a7c112049950\",\"base\":8363503616,\"size\":53236}}\n{\"load\":{\"path\":\"/usr/lib/libiconv.2.dylib\",\"uuid\":\"54c52b247d04397c935ab7897b44bb55\",\"base\":8361369600,\"size\":28660}}\n{\"load\":{\"path\":\"/usr/lib/libcharset.1.dylib\",\"uuid\":\"159f17d8d3d53c31bfde8481c8b02437\",\"base\":8362123264,\"size\":4096}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/AppleSauce.framework/AppleSauce\",\"uuid\":\"6f644f8cf23c3489ad84eeef610edf2b\",\"base\":8363556864,\"size\":155640}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/AVFoundation.framework/AVFoundation\",\"uuid\":\"e39fb58c97f235d3bcea39b4e90bb265\",\"base\":8422449152,\"size\":4096}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/AVFAudio.framework/AVFAudio\",\"uuid\":\"ceb89ebe790137b9bd3c4c1bc0f33008\",\"base\":7016275968,\"size\":1339392}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/AVFCore.framework/AVFCore\",\"uuid\":\"43f3b3c2a1c8393f88215df89d4899ac\",\"base\":6885912576,\"size\":2338816}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/AVFCapture.framework/AVFCapture\",\"uuid\":\"38142193efcc367a91cc27cef8267e7b\",\"base\":7069425664,\"size\":1310720}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/MediaExperience.framework/MediaExperience\",\"uuid\":\"e6f31864ac723138a9819f6bcf6d37dd\",\"base\":6888251392,\"size\":2117632}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/CoreMIDI.framework/CoreMIDI\",\"uuid\":\"a0333d90d3603151883c1f240e719195\",\"base\":8190058496,\"size\":602112}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/caulk.framework/caulk\",\"uuid\":\"7ef2d6da63ac38f3a39fffdbb50d0a7b\",\"base\":8405749760,\"size\":172032}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/AudioToolboxCore.framework/AudioToolboxCore\",\"uuid\":\"8f46cd5def783eb085e6d8dc67b7bb71\",\"base\":6806011904,\"size\":3522560}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox\",\"uuid\":\"026ef6302cb33c8b9f38e71bb64fdf98\",\"base\":7098171392,\"size\":2965504}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/AudioSession.framework/AudioSession\",\"uuid\":\"f0dc4821723536768db2e9fd2c0ca323\",\"base\":7070736384,\"size\":303104}}\n{\"load\":{\"path\":\"/usr/lib/libAudioStatistics.dylib\",\"uuid\":\"eb35642fde0c318ab89b5fb76e9e8854\",\"base\":6809534464,\"size\":86016}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/CPMS.framework/CPMS\",\"uuid\":\"968d156fd55830bbbe8c46be179ff06b\",\"base\":7890440192,\"size\":45056}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/CoreMedia.framework/CoreMedia\",\"uuid\":\"4d1e261063783dc5a4e642f89467e805\",\"base\":6803775488,\"size\":1429504}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/WatchdogClient.framework/WatchdogClient\",\"uuid\":\"a79c29152a543c978be3247456be9da6\",\"base\":8405188608,\"size\":8188}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/CoreAudio.framework/CoreAudio\",\"uuid\":\"e92e6185fcb634eab61b91546a95fd1a\",\"base\":7408603136,\"size\":6230016}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/PowerLog.framework/PowerLog\",\"uuid\":\"2bbf179d6c0d3dfaaeb4e85855235be3\",\"base\":7065894912,\"size\":172032}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/QuartzCore.framework/QuartzCore\",\"uuid\":\"0fb9e837c0aa3977a0be28ba0f207a50\",\"base\":6619627520,\"size\":3796992}}\n{\"load\":{\"path\":\"/usr/lib/libCTGreenTeaLogger.dylib\",\"uuid\":\"e4496dc55a743ed9bd8024b93a6f121f\",\"base\":8405098496,\"size\":8192}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices\",\"uuid\":\"4cf3ce2e256433fbac432f001233a60d\",\"base\":6846939136,\"size\":364544}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/CoreUtils.framework/CoreUtils\",\"uuid\":\"50c84cb58f0c3ee6ad9302e1401e8b4e\",\"base\":6780567552,\"size\":1581056}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/CMCaptureCore.framework/CMCaptureCore\",\"uuid\":\"e400a2fa615c356996e2de1ec9049f92\",\"base\":8405921792,\"size\":57344}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/CrashReporterSupport.framework/CrashReporterSupport\",\"uuid\":\"0bfd4e2db5a13738a5823c4d003ca958\",\"base\":7245824000,\"size\":45056}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/APFS.framework/APFS\",\"uuid\":\"f2968782ef8f388887d60df21e2e1c7e\",\"base\":8363712512,\"size\":417788}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/CoreVideo.framework/CoreVideo\",\"uuid\":\"bd87277f661e32cea3d56b5f9507fe46\",\"base\":7125413888,\"size\":274432}}\n{\"load\":{\"path\":\"/usr/lib/libtailspin.dylib\",\"uuid\":\"1173b54b65a63115a1866201a41ca73f\",\"base\":7614382080,\"size\":147456}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/CoreTime.framework/CoreTime\",\"uuid\":\"af90af0fae203f4eab3422771799c6b8\",\"base\":7379230720,\"size\":40960}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/UserManagement.framework/UserManagement\",\"uuid\":\"fc997751cdff3a99b9bef3db4e14742c\",\"base\":6819196928,\"size\":217088}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard\",\"uuid\":\"c49988685f023abebcce774cb7050487\",\"base\":6731329536,\"size\":811008}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/CoreServices.framework/CoreServices\",\"uuid\":\"0a265681486333a1a8624d116d546cad\",\"base\":6594469888,\"size\":2125824}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag\",\"uuid\":\"98fb587ac1dc38bc83b2451cb53f648a\",\"base\":7385350144,\"size\":172032}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/AggregateDictionary.framework/AggregateDictionary\",\"uuid\":\"019fc08c1d313356af060191132b6857\",\"base\":6730756096,\"size\":8192}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/AppleKeyStore.framework/AppleKeyStore\",\"uuid\":\"b3c0a383462635c2b8d772a8d2cc1b1e\",\"base\":8680501248,\"size\":200692}}\n{\"load\":{\"path\":\"/usr/lib/libutil.dylib\",\"uuid\":\"87bcd0cb8dd535eab2a1f7daf52ed2dc\",\"base\":8364130304,\"size\":16376}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/ImageIO.framework/ImageIO\",\"uuid\":\"ade8199ab7b134ec889b64c9184684cd\",\"base\":6693355520,\"size\":4693984}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/AppleJPEG.framework/AppleJPEG\",\"uuid\":\"b49f42a4388e3b1984ea2b7991d8640b\",\"base\":8401563648,\"size\":294912}}\n{\"load\":{\"path\":\"/usr/lib/libexpat.1.dylib\",\"uuid\":\"5a4a94bb14cf366eb7e2d7a6f1be0d2b\",\"base\":8760193024,\"size\":110592}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/ColorSync.framework/ColorSync\",\"uuid\":\"181438fecd513b77be13a9ffa0fc111f\",\"base\":6749818880,\"size\":1613816}}\n{\"load\":{\"path\":\"/usr/lib/libate.dylib\",\"uuid\":\"e94ee97558dd3c3b8b0ced545298820f\",\"base\":8401920000,\"size\":593920}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/IOSurfaceAccelerator.framework/IOSurfaceAccelerator\",\"uuid\":\"76b4ffa1977f36e9ba8a03fde109c7d7\",\"base\":8401858560,\"size\":16384}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/Metal.framework/Metal\",\"uuid\":\"ff3c443b1e583b9ba29104388d7b8aa5\",\"base\":6592315392,\"size\":2154496}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/IOAccelerator.framework/IOAccelerator\",\"uuid\":\"08186c38301835389aac040b3605ae60\",\"base\":7476613120,\"size\":28672}}\n{\"load\":{\"path\":\"/usr/lib/libllvm-flatbuffers.dylib\",\"uuid\":\"eb838506ecac33f2814bea22fba3936e\",\"base\":8364302336,\"size\":258040}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/OpenGLES.framework/libCoreFSCache.dylib\",\"uuid\":\"a5b801dcb2a83708976d21604d5c61cd\",\"base\":8790007808,\"size\":32756}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/libGPUCompilerUtils.dylib\",\"uuid\":\"ebf42c0eaa693ca68b07836008513025\",\"base\":8995696640,\"size\":20480}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/InstalledContentLibrary.framework/InstalledContentLibrary\",\"uuid\":\"ca8a1a5d55b83cc483ee6ce67007a3fd\",\"base\":7440343040,\"size\":868352}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/CoreServicesStore.framework/CoreServicesStore\",\"uuid\":\"8dabe288d4c3330f81658109a9470eed\",\"base\":7161278464,\"size\":241664}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/AppleMobileFileIntegrity.framework/AppleMobileFileIntegrity\",\"uuid\":\"ed29a01b8e12361aa359d0d828aad483\",\"base\":8364146688,\"size\":40960}}\n{\"load\":{\"path\":\"/usr/lib/libmis.dylib\",\"uuid\":\"f045ee0f0fb53ab69ffd95bd0134800f\",\"base\":8364187648,\"size\":86016}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/MobileSystemServices.framework/MobileSystemServices\",\"uuid\":\"5e908bc32fd73a499c065c3dd7bbd393\",\"base\":8364273664,\"size\":28672}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/CoreUtilsExtras.framework/CoreUtilsExtras\",\"uuid\":\"c9ed4fb4c1d8302293cf77b944e2cfb6\",\"base\":8942264320,\"size\":122880}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/IO80211.framework/IO80211\",\"uuid\":\"afd42be5ae773f37ac67835e2b8dc6c1\",\"base\":8404721664,\"size\":323584}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/MobileWiFi.framework/MobileWiFi\",\"uuid\":\"8e87729459083b4995ac2edf097258b9\",\"base\":7476641792,\"size\":221184}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/CoreWiFi.framework/CoreWiFi\",\"uuid\":\"d7fddccc03123aa7b9ed24de3b1975e4\",\"base\":7337644032,\"size\":958464}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/CaptiveNetwork.framework/CaptiveNetwork\",\"uuid\":\"61f7766956d53684a1a110489b2afd80\",\"base\":8405045248,\"size\":53248}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/EAP8021X.framework/EAP8021X\",\"uuid\":\"bd572262341f3879a75f2e27d48ff490\",\"base\":8404467712,\"size\":253952}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/WiFiPeerToPeer.framework/WiFiPeerToPeer\",\"uuid\":\"bea8b82cc3ac3578b84cc2ca46b2c21b\",\"base\":7453106176,\"size\":163840}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices\",\"uuid\":\"0f22238224f833bcad5fb2c750d6008d\",\"base\":7000301568,\"size\":794624}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/BoardServices.framework/BoardServices\",\"uuid\":\"29b0853d54ed34a988ee7e5f60ce8ba2\",\"base\":7001096192,\"size\":372736}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/MobileInstallation.framework/MobileInstallation\",\"uuid\":\"d176659e0a07354793e2428c4fbc4848\",\"base\":7338635264,\"size\":180224}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/AssertionServices.framework/AssertionServices\",\"uuid\":\"a01497c202d23453adce9c9611772450\",\"base\":7338815488,\"size\":57344}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/BackBoardServices.framework/BackBoardServices\",\"uuid\":\"54e368234a453a3d8ed74d49d6116cba\",\"base\":6730764288,\"size\":565248}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/Bom.framework/Bom\",\"uuid\":\"0700c0dd54e93f0892e2a11b70e933fe\",\"base\":8403554304,\"size\":450560}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/AppleFSCompression.framework/AppleFSCompression\",\"uuid\":\"9030e053505c3cf18ab64eebd21e3542\",\"base\":8402513920,\"size\":802760}}\n{\"load\":{\"path\":\"/usr/lib/libParallelCompression.dylib\",\"uuid\":\"ef3bda397fbf3228b1660152bcb3ef36\",\"base\":8404041728,\"size\":425936}}\n{\"load\":{\"path\":\"/usr/lib/libAppleArchive.dylib\",\"uuid\":\"8682661c77d138e68c4386384d7d2bbf\",\"base\":8456286208,\"size\":565200}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/GraphicsServices.framework/GraphicsServices\",\"uuid\":\"da1008abff2639eb95bb99b9bfa5fb4a\",\"base\":7715348480,\"size\":36864}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/FontServices.framework/libGSFont.dylib\",\"uuid\":\"4fca8e81a48138689a163760de2a6ba4\",\"base\":7071039488,\"size\":40960}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/CoreText.framework/CoreText\",\"uuid\":\"2a5d5479c2063dedb92229a7d66bdd60\",\"base\":6623424512,\"size\":1929216}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/FontServices.framework/FontServices\",\"uuid\":\"4b7bf4f3cb6737f6ac90037da18b6092\",\"base\":7337566208,\"size\":77824}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/FontServices.framework/libGSFontCache.dylib\",\"uuid\":\"59fd6259d95f3464a11190421d2d6923\",\"base\":8861941760,\"size\":331776}}\n{\"load\":{\"path\":\"/usr/lib/libAccessibility.dylib\",\"uuid\":\"af3632cf2dc9373e81e0ac58a365e782\",\"base\":6809620480,\"size\":172032}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/OTSVG.framework/OTSVG\",\"uuid\":\"5bfdd136bfde3125806304f2fc8f62c5\",\"base\":7476342784,\"size\":270336}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/UniformTypeIdentifiers.framework/UniformTypeIdentifiers\",\"uuid\":\"89f6cc2c9c99349abbd46de873dcfff8\",\"base\":6980366336,\"size\":81920}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/AXCoreUtilities.framework/AXCoreUtilities\",\"uuid\":\"30af51339f0e38239e50a3c66cb5ec6d\",\"base\":6803664896,\"size\":110592}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/MediaAccessibility.framework/MediaAccessibility\",\"uuid\":\"7e4da91f8bc13916b276ddba459d1035\",\"base\":7405735936,\"size\":77824}}\n{\"load\":{\"path\":\"/usr/lib/libperfcheck.dylib\",\"uuid\":\"f4f28b18aa4c34cea22360fb0be59207\",\"base\":8403361792,\"size\":57344}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/perfdata.framework/perfdata\",\"uuid\":\"ab6fc1070c4c3f5dbb35bc4ad2cb2fb7\",\"base\":7476862976,\"size\":53248}}\n{\"load\":{\"path\":\"/usr/lib/libIOReport.dylib\",\"uuid\":\"805e469b2ec93bb58fdfc96e08f0f1d9\",\"base\":8403419136,\"size\":36864}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices\",\"uuid\":\"d69e4c44afa93dbc8ab615d2b4cbf7ef\",\"base\":6803075072,\"size\":589824}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/IdleTimerServices.framework/IdleTimerServices\",\"uuid\":\"ab86a8e134af3dab9122793ed4555c2d\",\"base\":8404004864,\"size\":36864}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/UserNotifications.framework/UserNotifications\",\"uuid\":\"d2c87e741fae3375a581a288b0faefb0\",\"base\":7245869056,\"size\":286720}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/CoreTelephony.framework/CoreTelephony\",\"uuid\":\"f658909ebb813bde9eb6f51db7b1bd0a\",\"base\":6618218496,\"size\":1409024}}\n{\"load\":{\"path\":\"/usr/lib/libcupolicy.dylib\",\"uuid\":\"6abca1069007371cb8d49428747dbf0e\",\"base\":9061265408,\"size\":36864}}\n{\"load\":{\"path\":\"/usr/lib/libTelephonyUtilDynamic.dylib\",\"uuid\":\"6800e18c3b50399daa1b4a70b4c14041\",\"base\":6847303680,\"size\":544768}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/CommonUtilities.framework/CommonUtilities\",\"uuid\":\"c1e07d7d2dc83bb0b0bebce0f7f74f48\",\"base\":7094439936,\"size\":106496}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/MSUDataAccessor.framework/MSUDataAccessor\",\"uuid\":\"231c22df5e3b3e49a721822b2c83b6ef\",\"base\":8403456000,\"size\":28672}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/OSAnalytics.framework/OSAnalytics\",\"uuid\":\"122468e0a9d43085a0e7e8d84958f663\",\"base\":7160090624,\"size\":331776}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/Symbolication.framework/Symbolication\",\"uuid\":\"9662d8d336a63589bdf6e67b5e539d8c\",\"base\":7160422400,\"size\":856064}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices\",\"uuid\":\"9736d2042b4f3074ab920c6d1a963d0c\",\"base\":8784666624,\"size\":4096}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/CoreSymbolication.framework/CoreSymbolication\",\"uuid\":\"ac0b0262f47432f9b4538015d3846faa\",\"base\":7386202112,\"size\":1089528}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/OSAServicesClient.framework/OSAServicesClient\",\"uuid\":\"61a03a6cfce23a2b8138407a5cf780b6\",\"base\":7338602496,\"size\":32768}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/MallocStackLogging.framework/MallocStackLogging\",\"uuid\":\"531e264563f93090ac6d84efc305fbcf\",\"base\":8403316736,\"size\":45052}}\n{\"load\":{\"path\":\"/usr/lib/libpartition2_dynamic.dylib\",\"uuid\":\"32971073e217382c840c2c46912578f6\",\"base\":8403484672,\"size\":69632}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/AppServerSupport.framework/AppServerSupport\",\"uuid\":\"2ee8dc238e1939a3b986b2e6b2d6cd74\",\"base\":8599044096,\"size\":40960}}\n{\"load\":{\"path\":\"/usr/lib/libAudioToolboxUtility.dylib\",\"uuid\":\"cb3708daeeb033149a5acb83e8ee9a0d\",\"base\":7206744064,\"size\":245760}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/OpenGLES.framework/OpenGLES\",\"uuid\":\"0b0903841894307da1f992b1e6fe8c3c\",\"base\":8405315584,\"size\":40960}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/OpenGLES.framework/libGFXShared.dylib\",\"uuid\":\"8e3db9c1fd2335fb8757b5918f006ac3\",\"base\":8405454848,\"size\":40956}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/OpenGLES.framework/libGLImage.dylib\",\"uuid\":\"f81bbf4b230b34f39a8567bb957a2f83\",\"base\":8405508096,\"size\":241660}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/OpenGLES.framework/libCVMSPluginSupport.dylib\",\"uuid\":\"963ef7b128e13d588ce9da5a0731c5a7\",\"base\":8405356544,\"size\":8188}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/OpenGLES.framework/libCoreVMClient.dylib\",\"uuid\":\"6643a1bacad73674b9bf731c5e40e16b\",\"base\":8405364736,\"size\":24576}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/TailspinSymbolication.framework/TailspinSymbolication\",\"uuid\":\"604f891637883ce1a0a02bf6a6654337\",\"base\":9298341888,\"size\":8192}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/LoggingSupport.framework/LoggingSupport\",\"uuid\":\"4192bba19efd35e4956b14c57f29a5e2\",\"base\":7065456640,\"size\":438272}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/SignpostSupport.framework/SignpostSupport\",\"uuid\":\"e60a3c5ae5a43070a4110c37f292ecb5\",\"base\":7107817472,\"size\":389120}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/FeatureFlagsSupport.framework/FeatureFlagsSupport\",\"uuid\":\"a7d03745328139caaea6d24eaa58ac3b\",\"base\":8188420096,\"size\":77824}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/ktrace.framework/ktrace\",\"uuid\":\"9d2d45595ab5399e8ffc5d3ec488a487\",\"base\":7319277568,\"size\":892928}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/SampleAnalysis.framework/SampleAnalysis\",\"uuid\":\"7edbce30a373374197445fdb199ad203\",\"base\":7476916224,\"size\":1085440}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/kperfdata.framework/kperfdata\",\"uuid\":\"706b2b46d9d13453bf3fc9ae758f2d01\",\"base\":8405221376,\"size\":36852}}\n{\"load\":{\"path\":\"/usr/lib/libdscsym.dylib\",\"uuid\":\"9310abeec3c8314f847bb8c17dccf9c5\",\"base\":8307597312,\"size\":28672}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/kperf.framework/kperf\",\"uuid\":\"18530f83d6a93c799743ac4a822db61f\",\"base\":8405196800,\"size\":24572}}\n{\"load\":{\"path\":\"/usr/lib/swift/libswiftOSLog.dylib\",\"uuid\":\"bb221afe855d3de7839520b78505836e\",\"base\":8423710720,\"size\":8188}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/OSLog.framework/OSLog\",\"uuid\":\"cad1ffff1cda3770a7ecccc57935be15\",\"base\":7905755136,\"size\":65536}}\n{\"load\":{\"path\":\"/usr/lib/libTLE.dylib\",\"uuid\":\"9c783bee5a6d3afb8f9a9e3b1abcaef6\",\"base\":8760762368,\"size\":45056}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/HangTracer.framework/HangTracer\",\"uuid\":\"fcb5e02425bc319d886a0495c4092027\",\"base\":7321534464,\"size\":98304}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/ASEProcessing.framework/ASEProcessing\",\"uuid\":\"01db16b8af1d33bb9c69480331a6415e\",\"base\":8405258240,\"size\":53248}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/SignpostMetrics.framework/SignpostMetrics\",\"uuid\":\"76f9a8d581f3367aacd5db1a528d4b2a\",\"base\":8405311488,\"size\":4096}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/libEDR.framework/libEDR\",\"uuid\":\"0c508e2e47553aca978f09b1c01bd001\",\"base\":7715594240,\"size\":98304}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/DiagnosticRequest.framework/DiagnosticRequest\",\"uuid\":\"76a70cc93cf331ffba6672b694cb718c\",\"base\":7898738688,\"size\":90112}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/PhotosensitivityProcessing.framework/PhotosensitivityProcessing\",\"uuid\":\"e5c34ad44fd9382a93f38c6ebf91f990\",\"base\":9273126912,\"size\":114688}}\n{\"load\":{\"path\":\"/usr/lib/libapp_launch_measurement.dylib\",\"uuid\":\"ecc6050611883cb78015d4ddd5f3680c\",\"base\":8405495808,\"size\":12284}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/CoreBrightness.framework/CoreBrightness\",\"uuid\":\"526c5284f6043a76a9c9ec45ccf0da16\",\"base\":7403335680,\"size\":1916928}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/AFKUser.framework/AFKUser\",\"uuid\":\"33606108b78e31d7a846c20a07dcf8ab\",\"base\":7889272832,\"size\":32768}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/CoreAccessories.framework/CoreAccessories\",\"uuid\":\"eae85b4e6f0a3bc09a094846720540e5\",\"base\":7321632768,\"size\":270336}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/SystemWake.framework/SystemWake\",\"uuid\":\"005723f1a54932948e4b80c6cd651db2\",\"base\":8405389312,\"size\":65536}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/BiomeLibrary.framework/BiomeLibrary\",\"uuid\":\"67921fab7a6932d7ad6db74ffe859634\",\"base\":7313219584,\"size\":3375104}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/HID.framework/HID\",\"uuid\":\"f556d41b2c4f3d23a8605ba297bad504\",\"base\":7889305600,\"size\":69632}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/BiomeStreams.framework/BiomeStreams\",\"uuid\":\"fabd46ad7d2e31838a8860d39b187067\",\"base\":6784081920,\"size\":6361088}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/BiomeStorage.framework/BiomeStorage\",\"uuid\":\"a8b50b619ca43eac95f4efe3b8620467\",\"base\":7226486784,\"size\":229376}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/BiomeFoundation.framework/BiomeFoundation\",\"uuid\":\"bbe07a79906035cdb0a8930c39fd4192\",\"base\":7312998400,\"size\":221184}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/BiomeSync.framework/BiomeSync\",\"uuid\":\"5a4e8ee493a63f8c8c3097b5e3fd9c02\",\"base\":8730292224,\"size\":20480}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/BiomeFlexibleStorage.framework/BiomeFlexibleStorage\",\"uuid\":\"07fb55e3822c325e912a33d941aa49cf\",\"base\":7379111936,\"size\":118784}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/BiomeDSL.framework/BiomeDSL\",\"uuid\":\"d6b633d7112f393ca9cf303a8adde39a\",\"base\":7312891904,\"size\":106496}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/BiomePubSub.framework/BiomePubSub\",\"uuid\":\"b3111ad8bbdb3bb097fe80dd28384fbc\",\"base\":7226122240,\"size\":364544}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/BiomeSequence.framework/BiomeSequence\",\"uuid\":\"5f053f6d93ef36b895e387c58679e14e\",\"base\":8449916928,\"size\":110582}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/ProactiveSupport.framework/ProactiveSupport\",\"uuid\":\"f087ab1db86b3cee9fe3dc67d68c18c4\",\"base\":7091961856,\"size\":573440}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags\",\"uuid\":\"91ebe53bd44a3d9ea91e5502d9f7c8bb\",\"base\":8967909376,\"size\":4096}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/InternalSwiftProtobuf\",\"uuid\":\"7384b928b68f373d94b9b109c18cb70d\",\"base\":7316594688,\"size\":1073141}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/MobileAsset.framework/MobileAsset\",\"uuid\":\"dc97921785ee33609e9befeff80b6b75\",\"base\":7305129984,\"size\":663552}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration\",\"uuid\":\"67d3a63cb43b3230a2901e6e507b91c1\",\"base\":7068155904,\"size\":1269760}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/InternationalTextSearch.framework/InternationalTextSearch\",\"uuid\":\"63deab40559c3d00af6e4eaafbcbb1af\",\"base\":8423596032,\"size\":12288}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/CoreNLP.framework/CoreNLP\",\"uuid\":\"3aa134eea436339797219e08f2791bac\",\"base\":6861938688,\"size\":1150976}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/AppSupport.framework/AppSupport\",\"uuid\":\"ed53421b8e7c35d08cef34dfffa27134\",\"base\":6802788352,\"size\":286720}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/SoftwareUpdateCoreSupport.framework/SoftwareUpdateCoreSupport\",\"uuid\":\"4b7c45562ff935d4aec942e065804cab\",\"base\":7337209856,\"size\":356352}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/SoftwareUpdateCoreConnect.framework/SoftwareUpdateCoreConnect\",\"uuid\":\"c0d59a4efed93f7e9d55033140923fef\",\"base\":8407592960,\"size\":77824}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/StreamingZip.framework/StreamingZip\",\"uuid\":\"d55d488a3eec382d91a419b569139b36\",\"base\":8189788160,\"size\":270336}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/CorePhoneNumbers.framework/CorePhoneNumbers\",\"uuid\":\"de1020b7da18338c97e423c3b0bf564b\",\"base\":8405147648,\"size\":40953}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/RemoteServiceDiscovery.framework/RemoteServiceDiscovery\",\"uuid\":\"20c7b6ca16333732b9bdfa29986ad19b\",\"base\":7890939904,\"size\":69632}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/DMCUtilities.framework/DMCUtilities\",\"uuid\":\"df0dcab308c938eca2125f5b599afd9f\",\"base\":7156060160,\"size\":266240}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/Accounts.framework/Accounts\",\"uuid\":\"09ca7b520c033a5d945d92511c3b17c8\",\"base\":7124905984,\"size\":507904}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/DataMigration.framework/DataMigration\",\"uuid\":\"f2da0cff0d823b3d8a1131721e23c541\",\"base\":7890264064,\"size\":53248}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/MDMClientLibrary.framework/MDMClientLibrary\",\"uuid\":\"6204a86e8c3d3da2a5ace03f89838328\",\"base\":8187240448,\"size\":143360}}\n{\"load\":{\"path\":\"/usr/lib/liblockdown.dylib\",\"uuid\":\"4ffdab12f6a63c6390b992df7bd879e5\",\"base\":8405106688,\"size\":40960}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/NanoRegistry.framework/NanoRegistry\",\"uuid\":\"561eb361b52e36e6ae27c31b2695c2ac\",\"base\":7094546432,\"size\":442368}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/DEPClientLibrary.framework/DEPClientLibrary\",\"uuid\":\"13e4de155d963808a0ea40f4ab492dbf\",\"base\":8190660608,\"size\":36864}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/CoreData.framework/CoreData\",\"uuid\":\"28c80bd96cf1346183bf75bbbb50768f\",\"base\":6732140544,\"size\":3629056}}\n{\"load\":{\"path\":\"/usr/lib/libmecab.dylib\",\"uuid\":\"c910192078063630bb957abc38a5a8ca\",\"base\":8423002112,\"size\":372728}}\n{\"load\":{\"path\":\"/usr/lib/libCRFSuite.dylib\",\"uuid\":\"ca3c249527d63118aa8b0d8cb71003d3\",\"base\":8423374848,\"size\":221180}}\n{\"load\":{\"path\":\"/usr/lib/libgermantok.dylib\",\"uuid\":\"187130c90e9b3e2697810141676382bf\",\"base\":8422989824,\"size\":12284}}\n{\"load\":{\"path\":\"/usr/lib/libThaiTokenizer.dylib\",\"uuid\":\"22eb07b451b53c349e217e3a359c8c4a\",\"base\":9103958016,\"size\":8188}}\n{\"load\":{\"path\":\"/usr/lib/swift/libswiftMetal.dylib\",\"uuid\":\"d6e839af14e636b8b336a49102cbf201\",\"base\":8422428672,\"size\":20466}}\n{\"load\":{\"path\":\"/usr/lib/swift/libswiftsimd.dylib\",\"uuid\":\"e0110e23e8ab3554847676566b67a7ac\",\"base\":8422461440,\"size\":106492}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/TCC.framework/TCC\",\"uuid\":\"f8d338edade13b0485b2714e3c8d157e\",\"base\":7136202752,\"size\":90098}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/CoreHaptics.framework/CoreHaptics\",\"uuid\":\"64a15f2326a133e2b8b53535bcedc781\",\"base\":7408107520,\"size\":495616}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/AudioSession.framework/libSessionUtility.dylib\",\"uuid\":\"d75f6454287130f0bcab8b2f8703bd5f\",\"base\":8407871488,\"size\":249856}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/InternationalSupport.framework/InternationalSupport\",\"uuid\":\"19025ac605cf3b76b81bb74f8b9e0b3c\",\"base\":8287383552,\"size\":49152}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/CoreImage.framework/CoreImage\",\"uuid\":\"8661a3a730383210a43259a1d69eb51f\",\"base\":6867537920,\"size\":3674112}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/MediaToolbox.framework/MediaToolbox\",\"uuid\":\"9ba02f922bd239a4a812326b9cc24993\",\"base\":6875553792,\"size\":10358784}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/VideoToolbox.framework/VideoToolbox\",\"uuid\":\"c68953f2151b3fbb87c1b9490cd4aa0c\",\"base\":6871212032,\"size\":4341760}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/Celestial.framework/Celestial\",\"uuid\":\"a5b34c430a2f3ee7a6dd308ef521303a\",\"base\":8187613184,\"size\":16384}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/MetalPerformanceShaders.framework/MetalPerformanceShaders\",\"uuid\":\"2d11f4795d0d3cf4ba984c12ac59540b\",\"base\":8407228416,\"size\":4093}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/GraphVisualizer.framework/GraphVisualizer\",\"uuid\":\"90d7e12710f1366e9d6efc7735ec1478\",\"base\":8190775296,\"size\":49152}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/MetalPerformanceShaders.framework/Frameworks/MPSCore.framework/MPSCore\",\"uuid\":\"6994f663eda134d889e04c276d94918d\",\"base\":8406552576,\"size\":512000}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/MetalPerformanceShaders.framework/Frameworks/MPSImage.framework/MPSImage\",\"uuid\":\"f6f9b67ee7873df59be851ed74d65f85\",\"base\":8405979136,\"size\":573440}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/MetalPerformanceShaders.framework/Frameworks/MPSNeuralNetwork.framework/MPSNeuralNetwork\",\"uuid\":\"e0e5ec2a800c3c29bbe3d3d5850f4f09\",\"base\":8928677888,\"size\":1998848}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/MetalPerformanceShaders.framework/Frameworks/MPSMatrix.framework/MPSMatrix\",\"uuid\":\"fe6e422671ec31a5b3dcb63530325e6a\",\"base\":8407064576,\"size\":163840}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/MetalPerformanceShaders.framework/Frameworks/MPSRayIntersector.framework/MPSRayIntersector\",\"uuid\":\"253b4bc486163c6dbeeb3f18f1f59c6f\",\"base\":8939823104,\"size\":356352}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/MetalPerformanceShaders.framework/Frameworks/MPSNDArray.framework/MPSNDArray\",\"uuid\":\"505a92271788336183c21c43f25dbe7c\",\"base\":8995721216,\"size\":901120}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/MetalPerformanceShaders.framework/Frameworks/MPSFunctions.framework/MPSFunctions\",\"uuid\":\"3a960185e0db32c3acf9435860bd9287\",\"base\":8820867072,\"size\":81920}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/MetalPerformanceShaders.framework/Frameworks/MPSBenchmarkLoop.framework/MPSBenchmarkLoop\",\"uuid\":\"c99dfe50a6d23f259b23a3092bed3b48\",\"base\":9171275776,\"size\":118784}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/IOAccelMemoryInfo.framework/IOAccelMemoryInfo\",\"uuid\":\"3079b74880fe31b8a580e83ff71846db\",\"base\":8583581696,\"size\":36864}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/GPURawCounter.framework/GPURawCounter\",\"uuid\":\"e14f3c3e61563fe59aaf20098074c7b7\",\"base\":8569794560,\"size\":16384}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/MetalTools.framework/MetalTools\",\"uuid\":\"dbc1fbdb99a732299f4a37432501bcd3\",\"base\":9040433152,\"size\":1314816}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/VideoToolboxParavirtualizationSupport.framework/VideoToolboxParavirtualizationSupport\",\"uuid\":\"f4502de853c139088dcf1dec5565e6f5\",\"base\":9091575808,\"size\":8188}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/CoreAUC.framework/CoreAUC\",\"uuid\":\"7c15a271316c3c0d9275e645fed262e8\",\"base\":8408174592,\"size\":73717}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/CMPhoto.framework/CMPhoto\",\"uuid\":\"0e91229cf1643d6c90f2fc7e5c9e8ab7\",\"base\":7204941824,\"size\":995328}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/AppleJPEGXL.framework/AppleJPEGXL\",\"uuid\":\"49d22f80cf8233f3bedb64b413866f8c\",\"base\":9183121408,\"size\":1830912}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/CMCapture.framework/CMCapture\",\"uuid\":\"9a539d4597e63eb1aff03ac123e72419\",\"base\":7126614016,\"size\":7389184}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/Quagga.framework/Quagga\",\"uuid\":\"6f102712d9723522a09d1896b6084ec7\",\"base\":7901650944,\"size\":1114112}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/CMImaging.framework/CMImaging\",\"uuid\":\"a1ef1028298f3ae2a11bdb88fad8101e\",\"base\":7889375232,\"size\":606208}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/CameraColorProcessing.framework/CameraColorProcessing\",\"uuid\":\"e59ed2e03c153ee0a39931caab722bb0\",\"base\":9103474688,\"size\":483328}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/CoreMediaIO.framework/CoreMediaIO\",\"uuid\":\"d448494685923dd494950b363557fc9d\",\"base\":9151012864,\"size\":389120}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/CinematicFraming.framework/CinematicFraming\",\"uuid\":\"3b8c5a647ed134ea9f72498d7afb212e\",\"base\":8189571072,\"size\":217088}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/AppC3D.framework/AppC3D\",\"uuid\":\"3777830468f43bc29ea183724028ce85\",\"base\":8419057664,\"size\":3223552}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/Espresso.framework/Espresso\",\"uuid\":\"28bb1b7e5af3384ab897522f01def029\",\"base\":6847848448,\"size\":14090240}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/AppleCVAPhoto.framework/AppleCVAPhoto\",\"uuid\":\"36be062245823848ad471c389e88a193\",\"base\":7406981120,\"size\":483328}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/CoreMotion.framework/CoreMotion\",\"uuid\":\"c83e1910a1223e72a8fc24ecfdc6c115\",\"base\":6809792512,\"size\":4816896}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/MediaSafetyNet.framework/MediaSafetyNet\",\"uuid\":\"33b2d84908f4343ea25c142efe896486\",\"base\":7905624064,\"size\":65536}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/FileProvider.framework/FileProvider\",\"uuid\":\"edd60216ccea344ebdd677ad32ad63b4\",\"base\":7092822016,\"size\":1617920}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/ANECompiler.framework/ANECompiler\",\"uuid\":\"b51441d6fbf7382c90940d68ac6bd27b\",\"base\":8410660864,\"size\":8204280}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/AppleNeuralEngine.framework/AppleNeuralEngine\",\"uuid\":\"3ccf3f608550360481ec3f23deff4c79\",\"base\":7889981440,\"size\":282624}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/MetalPerformanceShadersGraph.framework/MetalPerformanceShadersGraph\",\"uuid\":\"da823363fe6235daaf0cc24c4e961f8e\",\"base\":6466707456,\"size\":17141760}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/MLCompilerServices.framework/MLCompilerServices\",\"uuid\":\"8de022afa97b324391c71197e79469e8\",\"base\":9246851072,\"size\":114688}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/ANEServices.framework/ANEServices\",\"uuid\":\"2327f632efbe32ec8808f30f1509ac77\",\"base\":8418865152,\"size\":147456}}\n{\"load\":{\"path\":\"/usr/lib/libsandbox.1.dylib\",\"uuid\":\"b911cfced6dd3e609c40d26f1f16eb53\",\"base\":8407670784,\"size\":12276}}\n{\"load\":{\"path\":\"/usr/lib/libMatch.1.dylib\",\"uuid\":\"7920e81dd64c359693f3119faccc30c0\",\"base\":8966410240,\"size\":32764}}\n{\"load\":{\"path\":\"/usr/lib/libncurses.5.4.dylib\",\"uuid\":\"6cab56cdaaae384e944a220f31835587\",\"base\":7591931904,\"size\":212992}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/MLCompilerRuntime.framework/MLCompilerRuntime\",\"uuid\":\"b9d42aa477423ceeae0fc68aec756447\",\"base\":9246433280,\"size\":417792}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/AppleDepth.framework/AppleDepth\",\"uuid\":\"45dde755b6633babae8ba7e534ba5a10\",\"base\":8475271168,\"size\":933888}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/AppleDepthCore.framework/AppleDepthCore\",\"uuid\":\"ef3b9768d9cd337da01a8e4863f89e53\",\"base\":9182240768,\"size\":475136}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/VisualLogger.framework/VisualLogger\",\"uuid\":\"5ae219e96e89325798dd83358ba40750\",\"base\":8468606976,\"size\":6664192}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/TimeSync.framework/TimeSync\",\"uuid\":\"2152b64c3f6f3d7c8fe1dfd8fe7ff9aa\",\"base\":7407464448,\"size\":643072}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/MobileBluetooth.framework/MobileBluetooth\",\"uuid\":\"2cc493695a14389dbf47e1738ee60447\",\"base\":7429828608,\"size\":278524}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/LocationSupport.framework/LocationSupport\",\"uuid\":\"03cd8b31047439ef9ead3b91e10539c8\",\"base\":7107604480,\"size\":212992}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/IOKitten.framework/IOKitten\",\"uuid\":\"c3b8a7b5a37a3baaae51091a787a3093\",\"base\":8629235712,\"size\":45056}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/ExtensionFoundation.framework/ExtensionFoundation\",\"uuid\":\"a29c10332bb43106a0a7129c4a16b057\",\"base\":6846377984,\"size\":561152}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/GenerationalStorage.framework/GenerationalStorage\",\"uuid\":\"edf8f0cb509c3b248a350d748d78993e\",\"base\":7905484800,\"size\":139264}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/SymptomDiagnosticReporter.framework/SymptomDiagnosticReporter\",\"uuid\":\"a00253b7a31c324e940b0980ac260478\",\"base\":8407232512,\"size\":49152}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/PlugInKit.framework/PlugInKit\",\"uuid\":\"3ffd3c7aed2b3b0b85e41fba94fa488c\",\"base\":7318364160,\"size\":225280}}\n{\"load\":{\"path\":\"/usr/lib/swift/libswiftQuartzCore.dylib\",\"uuid\":\"7338fd81f718303a9e529c1b95232a2e\",\"base\":8422453248,\"size\":8180}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/AVKit.framework/AVKit\",\"uuid\":\"7c07831fa0823b38b0508f3fc805772e\",\"base\":7275614208,\"size\":1818624}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/AVRouting.framework/AVRouting\",\"uuid\":\"29eab778be673094874164fc86384dab\",\"base\":8468570112,\"size\":28672}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/MediaRemote.framework/MediaRemote\",\"uuid\":\"f084c1e08ad4383c969a174db2496527\",\"base\":6890369024,\"size\":3563520}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/Pegasus.framework/Pegasus\",\"uuid\":\"e06d5990f3d6396a84d33624eccdaca4\",\"base\":7343230976,\"size\":430080}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/UIKit.framework/UIKit\",\"uuid\":\"b67b84df9a713e7eaf448c3fb1e69f6d\",\"base\":8765329408,\"size\":4096}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/SwiftUI.framework/SwiftUI\",\"uuid\":\"7bbaf70522f73edc9a764c8c1730188c\",\"base\":6660284416,\"size\":32358400}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore\",\"uuid\":\"948b271ad49d3b3fac082223908f51ab\",\"base\":6632325120,\"size\":27959296}}\n{\"load\":{\"path\":\"/usr/lib/swift/libswiftAVFoundation.dylib\",\"uuid\":\"70331be5e2b333aa9d9715c067d18531\",\"base\":8422866944,\"size\":122876}}\n{\"load\":{\"path\":\"/usr/lib/swift/libswiftAccelerate.dylib\",\"uuid\":\"1a6df1db622e3d94b316783090f446ba\",\"base\":7750438912,\"size\":868344}}\n{\"load\":{\"path\":\"/usr/lib/swift/libswiftCoreAudio.dylib\",\"uuid\":\"ebabd22a99c13dc09ecc7797e5568338\",\"base\":8311398400,\"size\":36864}}\n{\"load\":{\"path\":\"/usr/lib/swift/libswiftCoreImage.dylib\",\"uuid\":\"676ed1ec37173e7eb0277d9572ea525b\",\"base\":8441819136,\"size\":4096}}\n{\"load\":{\"path\":\"/usr/lib/swift/libswiftCoreMIDI.dylib\",\"uuid\":\"df6e5f1d8af03f4fa76204173d1dc756\",\"base\":8422567936,\"size\":40960}}\n{\"load\":{\"path\":\"/usr/lib/swift/libswiftCoreMedia.dylib\",\"uuid\":\"9befd8758c2f329985f25505138aaf84\",\"base\":7461724160,\"size\":237563}}\n{\"load\":{\"path\":\"/usr/lib/swift/libswiftDataDetection.dylib\",\"uuid\":\"fb0a5ccb05b537c68aebf90355d225b5\",\"base\":8441937920,\"size\":4096}}\n{\"load\":{\"path\":\"/usr/lib/swift/libswiftFileProvider.dylib\",\"uuid\":\"bfc2b439bb573fe29dda809e12e5d238\",\"base\":8441765888,\"size\":8184}}\n{\"load\":{\"path\":\"/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib\",\"uuid\":\"739518e40c843b85a64b2c958301600a\",\"base\":8422371328,\"size\":57342}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/RemoteTextInput.framework/RemoteTextInput\",\"uuid\":\"5ce0e6ef198838af822fbf5aba69b63f\",\"base\":6980173824,\"size\":192512}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/Rapport.framework/Rapport\",\"uuid\":\"70d40a45ba20356b808a68b2f403578c\",\"base\":7318589440,\"size\":688128}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/MediaServices.framework/MediaServices\",\"uuid\":\"9f33ec2ad930308b9eb2180d983b89ae\",\"base\":7090171904,\"size\":479232}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities\",\"uuid\":\"33f3ec471ac737d486e450b6fa833544\",\"base\":6998630400,\"size\":1671168}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/IDS.framework/IDS\",\"uuid\":\"d85a2018971f3ae3a7cc919c8028f9e7\",\"base\":6829637632,\"size\":1560576}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/IconServices.framework/IconServices\",\"uuid\":\"61ac26f99e5b3ead8e83b23769ee5c0c\",\"base\":7246155776,\"size\":352256}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/TextInput.framework/TextInput\",\"uuid\":\"e89e00df30d13a0b876c0660def9aef4\",\"base\":6766534656,\"size\":765952}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/LinguisticData.framework/LinguisticData\",\"uuid\":\"4a1ebd772d5f321cb68f7fcaeac987e8\",\"base\":8424099840,\"size\":24576}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/PersistentConnection.framework/PersistentConnection\",\"uuid\":\"32d5a62f3cc9306885667d42d2ca39ac\",\"base\":7768383488,\"size\":196608}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/Trial.framework/Trial\",\"uuid\":\"7949cbc810d532a18299ff48a6019541\",\"base\":7017615360,\"size\":688128}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/IMFoundation.framework/IMFoundation\",\"uuid\":\"144a74e980083ba3872995c67bb5938a\",\"base\":6829146112,\"size\":491520}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/IDSFoundation.framework/IDSFoundation\",\"uuid\":\"54daa978e99a32e687935a9352addca4\",\"base\":7018303488,\"size\":2506752}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/FTServices.framework/FTServices\",\"uuid\":\"d79a856bb3ea363bbabe46c879ab1929\",\"base\":7159427072,\"size\":372736}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/Engram.framework/Engram\",\"uuid\":\"0501ed97373b34388cc34c24198155d2\",\"base\":8188329984,\"size\":90112}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/Marco.framework/Marco\",\"uuid\":\"ad30ae1c46973b2b9a32bfb712542822\",\"base\":8407683072,\"size\":4096}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/FTAWD.framework/FTAWD\",\"uuid\":\"de36bdd7ef35333ebb72fcd3e6bb7ae0\",\"base\":8407687168,\"size\":131072}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/TrialProto.framework/TrialProto\",\"uuid\":\"a86f8e04ea6331c6835a463bc9040cfc\",\"base\":6866853888,\"size\":507904}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/AppleFlatBuffers.framework/AppleFlatBuffers\",\"uuid\":\"a4cbf6eb975835438927b8a74eb70a07\",\"base\":8807170048,\"size\":106496}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/ProactiveEventTracker.framework/ProactiveEventTracker\",\"uuid\":\"f72788a3e80c30968d3dded1874acd86\",\"base\":6819041280,\"size\":155648}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/AddressBookLegacy.framework/AddressBookLegacy\",\"uuid\":\"2b18bfaba4033da491cd19ed1d412702\",\"base\":7021342720,\"size\":708608}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/CallKit.framework/CallKit\",\"uuid\":\"79b33ff7cd1d3ee2b8de544f5912c94e\",\"base\":7145590784,\"size\":606208}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/AuthKit.framework/AuthKit\",\"uuid\":\"2db9a3ca3f48326db85ed631cf87bf16\",\"base\":6865797120,\"size\":1056768}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/RTCReporting.framework/RTCReporting\",\"uuid\":\"3810527c9493357fb6afb90c4ef0f310\",\"base\":6867361792,\"size\":176128}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/CoreDuet.framework/CoreDuet\",\"uuid\":\"cd17f68134363183a7925e43dd05a0c1\",\"base\":6790770688,\"size\":2244608}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/CommunicationsFilter.framework/CommunicationsFilter\",\"uuid\":\"00691c1dc1143884b8e87e30ad3ca8ec\",\"base\":8424124416,\"size\":20480}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/IMTransferServices.framework/IMTransferServices\",\"uuid\":\"154decb2bd453cbab7f8dc3a9439035a\",\"base\":8424181760,\"size\":45056}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/Contacts.framework/Contacts\",\"uuid\":\"d7f2af39dc8a3af58f16dddd35ef76c6\",\"base\":6816952320,\"size\":2088960}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/CoreDuetContext.framework/CoreDuetContext\",\"uuid\":\"cec65fd4966335bfb6c8fe0189dbc0c3\",\"base\":6790443008,\"size\":327680}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/IncomingCallFilter.framework/IncomingCallFilter\",\"uuid\":\"c7ddfa7206fe3da4b633f5fb3f2f7b4a\",\"base\":8424157184,\"size\":24576}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/PhoneNumbers.framework/PhoneNumbers\",\"uuid\":\"e5319dffe95035d999b2579ceced1053\",\"base\":8407281664,\"size\":8192}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/DataAccessExpress.framework/DataAccessExpress\",\"uuid\":\"6c3cd7716bb63112bf38c896b190ce34\",\"base\":7403008000,\"size\":253952}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/ContactsFoundation.framework/ContactsFoundation\",\"uuid\":\"7b559ebba5a63ac3adbfc2e28919efd0\",\"base\":6816186368,\"size\":765952}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/ContactsMetrics.framework/ContactsMetrics\",\"uuid\":\"7f755368e4a237e984c4c00c282dfa17\",\"base\":7905820672,\"size\":16384}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/iCalendar.framework/iCalendar\",\"uuid\":\"d8d74dda63ae3f3eb81bba5be415db4b\",\"base\":7891009536,\"size\":262144}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/URLFormatting.framework/URLFormatting\",\"uuid\":\"1d6933a520723279808e5d9c1002e4c5\",\"base\":8423944192,\"size\":36864}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/DataDetectorsCore.framework/DataDetectorsCore\",\"uuid\":\"60064cfa85df30ee872e34f91543bb0d\",\"base\":7021096960,\"size\":245760}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/CryptoKit.framework/CryptoKit\",\"uuid\":\"df7d94d13fb832319f84e3b9f4f78537\",\"base\":7175008256,\"size\":471040}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/CryptoKitCBridging.framework/CryptoKitCBridging\",\"uuid\":\"113ea159124038359e50e7cecf02725b\",\"base\":8186105856,\"size\":24576}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/CryptoTokenKit.framework/CryptoTokenKit\",\"uuid\":\"fee24257365437ee8e9425f773272952\",\"base\":7472615424,\"size\":389120}}\n{\"load\":{\"path\":\"/usr/lib/swift/libswiftCryptoTokenKit.dylib\",\"uuid\":\"a7b00dfef92f3123ac2d41b48971bbf1\",\"base\":8419049472,\"size\":8183}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/LocalAuthentication.framework/LocalAuthentication\",\"uuid\":\"eb1ca2bdc7033be1a201d2f7231edec8\",\"base\":7472345088,\"size\":270336}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/LocalAuthentication.framework/Support/SharedUtils.framework/SharedUtils\",\"uuid\":\"e79c5c6d03863cd2b18587a4d7f30fe5\",\"base\":7471697920,\"size\":167936}}\n{\"load\":{\"path\":\"/usr/lib/libBASupport.dylib\",\"uuid\":\"43a245cc47fe3d17963417c2e99cab60\",\"base\":7281758208,\"size\":8192}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/PushKit.framework/PushKit\",\"uuid\":\"9db2bab51a863d75a0d1e72db2d38590\",\"base\":8419012608,\"size\":36864}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/DeviceIdentity.framework/DeviceIdentity\",\"uuid\":\"359be26891b73b79905a887929c8f125\",\"base\":8190824448,\"size\":118784}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/AppleIDAuthSupport.framework/AppleIDAuthSupport\",\"uuid\":\"18581aa7e6ba3316a4112f3991241c80\",\"base\":8407818240,\"size\":53248}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/AAAFoundation.framework/AAAFoundation\",\"uuid\":\"7ca4a3ac480231ebbcc45ea33049269d\",\"base\":8193540096,\"size\":98304}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/RemoteXPC.framework/RemoteXPC\",\"uuid\":\"47dfae00767036fa81220f08fe5494e1\",\"base\":7906516992,\"size\":86016}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/ApplePushService.framework/ApplePushService\",\"uuid\":\"4ebdc348d2d03d14ac9f3c54f2890e02\",\"base\":7020810240,\"size\":176128}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/CloudKit.framework/CloudKit\",\"uuid\":\"c883c141c9b9387c992fe950f16d582b\",\"base\":6735769600,\"size\":3239936}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/Intents.framework/Intents\",\"uuid\":\"b8f4373c8ea23919ba66508ee611919f\",\"base\":6759448576,\"size\":5918720}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/CoreDuetDaemonProtocol.framework/CoreDuetDaemonProtocol\",\"uuid\":\"a8b6b46348293ef18c77a926d4c83b59\",\"base\":8188497920,\"size\":12288}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/SharedWithYouCore.framework/SharedWithYouCore\",\"uuid\":\"04db516fce743b4f9d1a1fe820dc05f6\",\"base\":6752833536,\"size\":114688}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/AppleAccount.framework/AppleAccount\",\"uuid\":\"79d9f426fda133b7b0b00eb5ac3b3eb9\",\"base\":7066066944,\"size\":1064960}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/C2.framework/C2\",\"uuid\":\"4158f96ca34e312899fc7ac74897608c\",\"base\":8189190144,\"size\":331776}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/CoreLocation.framework/CoreLocation\",\"uuid\":\"4babb7483c873a9bb16a10f7ff27c928\",\"base\":6814609408,\"size\":1576960}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/ProtectedCloudStorage.framework/ProtectedCloudStorage\",\"uuid\":\"36f0ad7dbb5b31a88c6f648aa74a75af\",\"base\":7225737216,\"size\":385024}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/CoreTransferable.framework/CoreTransferable\",\"uuid\":\"12a2b1c2bb8a3491adba34b78c5b2281\",\"base\":8422608896,\"size\":258048}}\n{\"load\":{\"path\":\"/usr/lib/swift/libswiftCoreLocation.dylib\",\"uuid\":\"2c8cbf874cf339bfaece553ef0cc95f4\",\"base\":8422281216,\"size\":90111}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/SetupAssistant.framework/SetupAssistant\",\"uuid\":\"2dead96d075b371fa9a832eef46bead5\",\"base\":7161520128,\"size\":360448}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/AppleIDSSOAuthentication.framework/AppleIDSSOAuthentication\",\"uuid\":\"f6f63a6d16e831b6bc5894c82596bf43\",\"base\":8187383808,\"size\":229376}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/CoreFollowUp.framework/CoreFollowUp\",\"uuid\":\"202e1a3419a932aa91b2d83151d0a95a\",\"base\":7462076416,\"size\":192512}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/SetupAssistantSupport.framework/SetupAssistantSupport\",\"uuid\":\"ec8f4716dd553f8685c43fa97a50cbb0\",\"base\":8180678656,\"size\":126976}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/MobileBackup.framework/MobileBackup\",\"uuid\":\"9daa0335e09237cc857a2b8e8bf8bd40\",\"base\":8194007040,\"size\":462848}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/Seeding.framework/Seeding\",\"uuid\":\"d296992d29883a979f8f59f24dc04958\",\"base\":8190943232,\"size\":159744}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/OSASubmissionClient.framework/OSASubmissionClient\",\"uuid\":\"629792e2bece3b539805f63b4510fcfb\",\"base\":8180998144,\"size\":20480}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/IntlPreferences.framework/IntlPreferences\",\"uuid\":\"c6ea96deb8403f07bae237e936357207\",\"base\":7471865856,\"size\":155648}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/GeoServices.framework/GeoServices\",\"uuid\":\"01cad8c2ae0d3adb86e2cb2153e35f40\",\"base\":6701359104,\"size\":28577792}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth\",\"uuid\":\"da4168b2d11e34d9ae1ad6818c2ee997\",\"base\":7205937152,\"size\":806912}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/GeoServicesCore.framework/GeoServicesCore\",\"uuid\":\"13f392e135863ab3b51cb07e86048e66\",\"base\":8193638400,\"size\":16384}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/NanoPreferencesSync.framework/NanoPreferencesSync\",\"uuid\":\"8d4c2ca651d33a9aaf0c3c7edaf52893\",\"base\":7403261952,\"size\":73728}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/AppConduit.framework/AppConduit\",\"uuid\":\"9da2606126a636d1a6b392be03675e52\",\"base\":8188510208,\"size\":192512}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/CacheDelete.framework/CacheDelete\",\"uuid\":\"54baf9c118523f86a51685658bfbf29a\",\"base\":7136292864,\"size\":290816}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/FSEvents.framework/FSEvents\",\"uuid\":\"2d0d7521cb11378f813a98c3dbca2efd\",\"base\":8408121344,\"size\":53244}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/OSAnalyticsPrivate.framework/OSAnalyticsPrivate\",\"uuid\":\"804e114c630f39c18a553039b98be77c\",\"base\":7898599424,\"size\":139264}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/OctagonTrust.framework/OctagonTrust\",\"uuid\":\"76918a3b67923a31afa69fb779930804\",\"base\":7001468928,\"size\":176128}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/SecurityFoundation.framework/SecurityFoundation\",\"uuid\":\"d6169f8a7d2e3a60a1d623e0d3b68329\",\"base\":7461961728,\"size\":114688}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation\",\"uuid\":\"4705d31e755d3afaa8790e22f42b7c73\",\"base\":6782537728,\"size\":1339392}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/CoreUI.framework/CoreUI\",\"uuid\":\"bbb83a10062c3df380d1bfb7a9b4c071\",\"base\":7067131904,\"size\":1024000}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/TextureIO.framework/TextureIO\",\"uuid\":\"ea711dc633db3358b3a5c08b23cdcba8\",\"base\":7905837056,\"size\":679936}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/CoreSVG.framework/CoreSVG\",\"uuid\":\"d13f6d75191932a4a7e8d5cc9cd1196d\",\"base\":8407289856,\"size\":237568}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/IntentsFoundation.framework/IntentsFoundation\",\"uuid\":\"ecd2cea8b5bb3d218025c7c57aa03181\",\"base\":7905689600,\"size\":65536}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/CellularPlanManager.framework/CellularPlanManager\",\"uuid\":\"8658e1f5072d33639b23d5b5b57f44bb\",\"base\":7890317312,\"size\":122880}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/ClassKit.framework/ClassKit\",\"uuid\":\"944d10317b9f3b57a6f60d17aadc3499\",\"base\":7904624640,\"size\":741376}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/Vision.framework/Vision\",\"uuid\":\"9048d214b9ef30ca8c13fbbaed7b0387\",\"base\":7101136896,\"size\":3436544}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/CoreSuggestions.framework/CoreSuggestions\",\"uuid\":\"a7a1252a40e93861959c025d54e2b0e3\",\"base\":7115341824,\"size\":753664}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/vCard.framework/vCard\",\"uuid\":\"446b4d654ece3edb9c2fadd370b9558d\",\"base\":7900172288,\"size\":241664}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/CloudDocs.framework/CloudDocs\",\"uuid\":\"73f0107373a03993bb78396884c8cc80\",\"base\":7036727296,\"size\":843776}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/QuickLookThumbnailing.framework/QuickLookThumbnailing\",\"uuid\":\"dad2607dfd9c33d1a2863e5d44fdb730\",\"base\":7305793536,\"size\":290816}}\n{\"load\":{\"path\":\"/usr/lib/libprequelite.dylib\",\"uuid\":\"966d943c968636a599e5119ab2be5a34\",\"base\":8181018624,\"size\":86016}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/IconFoundation.framework/IconFoundation\",\"uuid\":\"2dbfcf133ce7307ebb349f75108cd10a\",\"base\":7905366016,\"size\":118784}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/MobileIcons.framework/MobileIcons\",\"uuid\":\"932544db81e238a1aeefcca388a28f83\",\"base\":8407527424,\"size\":65536}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/VisionCore.framework/VisionCore\",\"uuid\":\"b49e84452acd37beb099e4d148b6adf0\",\"base\":8783405056,\"size\":241664}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/Vision.framework/libfaceCore.dylib\",\"uuid\":\"9337a8ba542737a2adf069bb39a47df3\",\"base\":7892320256,\"size\":6279072}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/Futhark.framework/Futhark\",\"uuid\":\"10a1cb0d0f953cf599a311728f2d33cd\",\"base\":7908753408,\"size\":102400}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/InertiaCam.framework/InertiaCam\",\"uuid\":\"bd3ef7143d293e8caf53a8fab240bcde\",\"base\":8188702720,\"size\":487424}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/CoreML.framework/CoreML\",\"uuid\":\"fd40250aaff438f489961261a45dc370\",\"base\":7030157312,\"size\":6569984}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/TextRecognition.framework/TextRecognition\",\"uuid\":\"fd1de161affe3cf0bf2c8bb62b381087\",\"base\":8191102976,\"size\":2437120}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/MLCompute.framework/MLCompute\",\"uuid\":\"3652a8757fe130bbb7db6a32aeb9eb24\",\"base\":8184586240,\"size\":1519616}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/MLAssetIO.framework/MLAssetIO\",\"uuid\":\"e6eb766664a33c61a7fd76ecb8561d59\",\"base\":7898828800,\"size\":1343488}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/CVNLP.framework/CVNLP\",\"uuid\":\"f615e856cc5d3635b4cdd144af5da992\",\"base\":7334178816,\"size\":1044480}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/Lexicon.framework/Lexicon\",\"uuid\":\"1f92b6b9da5b328b94d23e379534bbbe\",\"base\":7024594944,\"size\":970744}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/LanguageModeling.framework/LanguageModeling\",\"uuid\":\"2840f20384e43f5baf34300c4aca52bc\",\"base\":7027843072,\"size\":2314240}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/NaturalLanguage.framework/NaturalLanguage\",\"uuid\":\"b5931aac49bc31d1b9255deae5e631e0\",\"base\":7136583680,\"size\":352256}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/Montreal.framework/Montreal\",\"uuid\":\"3edbc0ddedcc35258e22f219bdd7417c\",\"base\":7025565696,\"size\":2277376}}\n{\"load\":{\"path\":\"/System/Library/PrivateFrameworks/CoreEmoji.framework/CoreEmoji\",\"uuid\":\"8614897d1ff33ad2a09c93d8f559664e\",\"base\":6783877120,\"size\":204800}}\n{\"load\":{\"path\":\"/usr/lib/libcmph.dylib\",\"uuid\":\"eb3912ef1b223829ba0e105fa46b8ad4\",\"base\":8424226816,\"size\":77812}}\n{\"load\":{\"path\":\"/System/Library/Frameworks/CoreSpotlight

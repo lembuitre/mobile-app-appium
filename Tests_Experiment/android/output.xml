@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Rebot 7.0.1 (Python 3.9.21 on darwin)" generated="2025-03-19T18:15:33.904552" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Experiment Browserstack Android OnePlus 9, 11.0" source="/Users/lemuel.buitre/Desktop/pdax_automation/pdax-mobile-framework-automation/Tests_Experiment/android/experiment_browserstack_android.robot">
+<test id="s1-s1-t1" name="Open_Application_Android" line="11">
+<kw name="Open Application" owner="AppiumLibrary">
+<msg time="2025-03-19T18:14:10.809595" level="INFO">Completed setup!</msg>
+<arg>${REMOTE_URL}</arg>
+<arg>platformName=android</arg>
+<arg>platformVersion=9.0</arg>
+<arg>deviceName=Google Pixel 3</arg>
+<arg>app=bs://146089c490cc0e87936ad416bc6069924fd5fb74</arg>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |
+| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
+<status status="PASS" start="2025-03-19T18:14:10.806361" elapsed="34.008171"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-03-19T18:14:54.818135" level="INFO">Slept 10 seconds.</msg>
+<arg>10</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-03-19T18:14:44.815409" elapsed="10.003282"/>
+</kw>
+<kw name="Click Element" owner="AppiumLibrary">
+<msg time="2025-03-19T18:14:54.824557" level="INFO">Clicking element 'xpath=//*[@resource-id='buttonLogin']'.</msg>
+<msg time="2025-03-19T18:14:55.258293" level="INFO">xpath criteria: //*[@resource-id='buttonLogin']</msg>
+<arg>xpath=//*[@resource-id='buttonLogin']</arg>
+<doc>Click element identified by `locator`.</doc>
+<status status="PASS" start="2025-03-19T18:14:54.819688" elapsed="0.438870"/>
+</kw>
+<kw name="Click Element" owner="AppiumLibrary">
+<msg time="2025-03-19T18:14:55.263231" level="INFO">Clicking element 'xpath=//android.widget.FrameLayout[@resource-id="android:id/content"]/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View'.</msg>
+<msg time="2025-03-19T18:14:56.755492" level="INFO">xpath criteria: //android.widget.FrameLayout[@resource-id="android:id/content"]/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View</msg>
+<arg>xpath=//android.widget.FrameLayout[@resource-id="android:id/content"]/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View</arg>
+<doc>Click element identified by `locator`.</doc>
+<status status="PASS" start="2025-03-19T18:14:55.259094" elapsed="1.496744"/>
+</kw>
+<kw name="Click Element" owner="AppiumLibrary">
+<msg time="2025-03-19T18:14:56.760900" level="INFO">Clicking element 'xpath=//*[@resource-id='textFieldEmail']'.</msg>
+<msg time="2025-03-19T18:14:57.596355" level="INFO">xpath criteria: //*[@resource-id='textFieldEmail']</msg>
+<arg>xpath=//*[@resource-id='textFieldEmail']</arg>
+<doc>Click element identified by `locator`.</doc>
+<status status="PASS" start="2025-03-19T18:14:56.756553" elapsed="0.840154"/>
+</kw>
+<kw name="Input Text Into Current Element" owner="AppiumLibrary">
+<msg time="2025-03-19T18:14:57.601822" level="INFO">Typing text 'Username' into current text field</msg>
+<arg>Username</arg>
+<doc>Types the given `text` into currently selected text field.</doc>
+<status status="PASS" start="2025-03-19T18:14:57.597443" elapsed="0.907910"/>
+</kw>
+<kw name="Click Element" owner="AppiumLibrary">
+<msg time="2025-03-19T18:14:58.510505" level="INFO">Clicking element 'xpath=//*[@resource-id='textFieldPassword']'.</msg>
+<msg time="2025-03-19T18:15:00.191271" level="INFO">xpath criteria: //*[@resource-id='textFieldPassword']</msg>
+<arg>xpath=//*[@resource-id='textFieldPassword']</arg>
+<doc>Click element identified by `locator`.</doc>
+<status status="PASS" start="2025-03-19T18:14:58.506093" elapsed="1.685544"/>
+</kw>
+<kw name="Input Text Into Current Element" owner="AppiumLibrary">
+<msg time="2025-03-19T18:15:00.196715" level="INFO">Typing text 'Password' into current text field</msg>
+<arg>Password</arg>
+<doc>Types the given `text` into currently selected text field.</doc>
+<status status="PASS" start="2025-03-19T18:15:00.192393" elapsed="1.123039"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-03-19T18:15:11.319071" level="INFO">Slept 10 seconds.</msg>
+<arg>10</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-03-19T18:15:01.316007" elapsed="10.004665"/>
+</kw>
+<kw name="Click Element" owner="AppiumLibrary">
+<msg time="2025-03-19T18:15:11.327586" level="INFO">Clicking element 'xpath=//android.widget.FrameLayout[@resource-id="android:id/content"]/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View'.</msg>
+<msg time="2025-03-19T18:15:11.723110" level="INFO">xpath criteria: //android.widget.FrameLayout[@resource-id="android:id/content"]/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View</msg>
+<arg>xpath=//android.widget.FrameLayout[@resource-id="android:id/content"]/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View</arg>
+<doc>Click element identified by `locator`.</doc>
+<status status="PASS" start="2025-03-19T18:15:11.322638" elapsed="0.400844"/>
+</kw>
+<kw name="Click Element" owner="AppiumLibrary">
+<msg time="2025-03-19T18:15:11.728621" level="INFO">Clicking element 'accessibility_id=Reset Password Button'.</msg>
+<arg>accessibility_id=Reset Password Button</arg>
+<doc>Click element identified by `locator`.</doc>
+<status status="PASS" start="2025-03-19T18:15:11.724219" elapsed="0.774739"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-03-19T18:15:17.500775" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-03-19T18:15:12.499236" elapsed="5.001673"/>
+</kw>
+<kw name="Click Element" owner="AppiumLibrary">
+<msg time="2025-03-19T18:15:17.502527" level="INFO">Clicking element 'xpath=//*[@resource-id='buttonBack']'.</msg>
+<msg time="2025-03-19T18:15:17.825175" level="INFO">xpath criteria: //*[@resource-id='buttonBack']</msg>
+<arg>xpath=//*[@resource-id='buttonBack']</arg>
+<doc>Click element identified by `locator`.</doc>
+<status status="PASS" start="2025-03-19T18:15:17.501106" elapsed="0.324432"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-03-19T18:15:20.827689" level="INFO">Slept 3 seconds.</msg>
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-03-19T18:15:17.826271" elapsed="3.002030"/>
+</kw>
+<kw name="Click Element" owner="AppiumLibrary">
+<msg time="2025-03-19T18:15:20.833998" level="INFO">Clicking element 'accessibility_id=Create Account Button'.</msg>
+<arg>accessibility_id=Create Account Button</arg>
+<doc>Click element identified by `locator`.</doc>
+<status status="PASS" start="2025-03-19T18:15:20.829238" elapsed="0.316809"/>
+</kw>
+<status status="PASS" start="2025-03-19T18:14:10.805609" elapsed="70.341417"/>
+</test>
+<status status="PASS" start="2025-03-19T18:14:10.772000" elapsed="71.394185"/>
+</suite>
+<doc>[https://pabot.org/?ref=log|Pabot] result from 1 executions.</doc>
+<status status="PASS" start="2025-03-19T18:14:10.772000" elapsed="71.394185"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Experiment Browserstack Android OnePlus 9, 11.0">Suites.Experiment Browserstack Android OnePlus 9, 11.0</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

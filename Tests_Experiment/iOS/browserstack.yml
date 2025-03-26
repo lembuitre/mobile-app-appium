@@ -1,0 +1,37 @@
+userName: lemuellbuitre_YwA83T
+accessKey: suvgyjimDoaJyXhpDekf
+framework: robot
+#fixed build
+#app: bs://29236a16698cfe5666b631200eecd297d0f4fa0f
+# tests build
+app: bs://d4cebdc38ce7be02ed5ec0d3f71a4f878159801d
+#app: bs://2d9c5614b2a5a605dfc43830fb38da70c34a8fee
+#app: bs://97ada68b1d1fb09b35b4afc2424db7b88c3f0bab
+#app: bs://7dc464bd6c9c7887f17c3ea4187ad93a10f0390a
+platforms:
+#  - platformName: ios
+#    deviceName: iPhone 14 Pro Max
+#    platformVersion: 16
+#  - platformName: ios
+#    deviceName: iPhone 15
+#    platformVersion: 17
+  - platformName: ios
+    deviceName: iPhone 15 Plus
+    platformVersion: 17
+browserstackLocal: true
+buildName: browserstack-build-1
+projectName: BrowserStack Sample
+locale: PH
+#location: 12.8797,121.7740
+automationName: "XCUITest"
+autoAcceptAlerts: true
+#appium:location:
+#  latitude: 12.8797
+#  longitude:  121.7740
+#gpsLocation: 12.8797,121.7740
+browserstack.networkLogs: true
+#browserstack.console: true
+browserstack.debug: true
+#locationServicesEnabled: true
+browserStackLocalOptions:
+  forceLocal: true

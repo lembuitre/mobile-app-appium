@@ -1,0 +1,33 @@
+userName: lemuellbuitre_YwA83T
+accessKey: suvgyjimDoaJyXhpDekf
+framework: robot
+#app: bs://146089c490cc0e87936ad416bc6069924fd5fb74
+#app: bs://a9b77f5d1fd56d61fe85816077a4d3f1674f5ad8
+app: bs://95ac4039d4678d884fcbabf18e5ee87c8177297d
+platforms:
+#  - platformName: android
+#    deviceName: Samsung Galaxy S22 Ultra
+#    platformVersion: 12.0
+#  - platformName: android
+#    deviceName: Google Pixel 7 Pro
+#    platformVersion: 13.0
+  - platformName: android
+    deviceName: OnePlus 9
+    platformVersion: 11.0
+browserstackLocal: true
+buildName: browserstack-build-pdax-app
+projectName: BrowserStack PDAX-APP
+locale: PH
+autoGrantPermissions: true
+language: En
+autoAcceptAlerts: true
+#appium:location:
+#  latitude: 12.8797
+#  longitude:  121.7740
+#gpsLocation: 12.8797,121.7740
+browserstack.networkLogs: true
+#browserstack.console: true
+browserstack.debug: true
+#locationServicesEnabled: true
+browserStackLocalOptions:
+  forceLocal: true

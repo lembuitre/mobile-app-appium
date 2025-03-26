@@ -1,0 +1,21 @@
+
+18:14:08 [browserstack_sdk.__init__][INFO] - Using App : bs://95ac4039d4678d884fcbabf18e5ee87c8177297d.
+
+18:14:08 [browserstack_sdk.__init__][INFO] - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+
+18:14:10 [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
+==============================================================================
+Experiment Browserstack Android                                               
+==============================================================================
+Open_Application_Android                                              
+18:14:10 [browserstack_sdk.__init__][INFO] - Completed setup!
+| PASS |
+------------------------------------------------------------------------------
+Experiment Browserstack Android                                       | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Output:  /Users/lemuel.buitre/Desktop/pdax_automation/pdax-mobile-framework-automation/Tests_Experiment/android/pabot_results/0/output.xml
+
+18:15:22 [browserstack_sdk.__init__][INFO] - Handling session close
+
+18:15:23 [browserstack_sdk.__init__][INFO] - All done!
